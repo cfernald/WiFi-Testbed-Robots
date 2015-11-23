@@ -1,0 +1,28 @@
+<package>
+  <description brief="proteus3_compass">
+
+    This package contains a ROS node that communicates with the compass on
+    the Proteus 3 robot.  It depends on the serial package:
+
+    http://wjwwood.github.com/serial/
+
+    Download and compile a copy of this package by executing the following commands
+    within your ROS workspace:
+
+    $ git clone git://github.com/wjwwood/serial.git
+    $ rospack profile
+    $ roscd serial
+    $ rosmake
+
+  </description>
+  <author>Chien-Liang Fok</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/proteus3_compass</url>
+  <depend package="serial"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+
+</package>
+
+

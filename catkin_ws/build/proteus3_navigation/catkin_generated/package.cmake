@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "proteus3_navigation")
+set(proteus3_navigation_MAINTAINER "Siavash Zangeneh <siavash.zangeneh@utexas.edu>")
+set(proteus3_navigation_DEPRECATED "")
+set(proteus3_navigation_VERSION "0.0.0")
+set(proteus3_navigation_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "nav_msgs" "teleop_ackermann_keyboard" "traxxas_node" "tf")
+set(proteus3_navigation_RUN_DEPENDS "roscpp" "rospy" "std_msgs" "nav_msgs" "teleop_ackermann_keyboard" "traxxas_node" "tf")
+set(proteus3_navigation_BUILDTOOL_DEPENDS "catkin")

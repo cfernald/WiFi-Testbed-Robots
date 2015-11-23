@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "teleop_ackermann_keyboard")
+set(teleop_ackermann_keyboard_MAINTAINER "ut <ut@todo.todo>")
+set(teleop_ackermann_keyboard_DEPRECATED "")
+set(teleop_ackermann_keyboard_VERSION "0.0.0")
+set(teleop_ackermann_keyboard_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "traxxas_node")
+set(teleop_ackermann_keyboard_RUN_DEPENDS "roscpp" "rospy" "std_msgs" "traxxas_node")
+set(teleop_ackermann_keyboard_BUILDTOOL_DEPENDS "catkin")
