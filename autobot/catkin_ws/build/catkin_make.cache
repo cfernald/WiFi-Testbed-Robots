@@ -1,0 +1,2 @@
+outdoor_navigation:proteus3_compass_hydro:proteus3_gps_hydro:proteus3_navigation:teleop_ackermann_keyboard:traxxas_node
+-DCATKIN_DEVEL_PREFIX=/home/awesome/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/awesome/catkin_ws/install -G Unix Makefiles

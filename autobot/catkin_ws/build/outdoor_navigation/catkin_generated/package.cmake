@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "outdoor_navigation")
+set(outdoor_navigation_MAINTAINER "pesantacruz <pesantacruz@todo.todo>")
+set(outdoor_navigation_DEPRECATED "")
+set(outdoor_navigation_VERSION "0.0.0")
+set(outdoor_navigation_BUILD_DEPENDS "proteus3_gps_hydro" "proteus3_compass_hydro" "roscpp" "rospy" "std_msgs" "traxxas_node")
+set(outdoor_navigation_RUN_DEPENDS "proteus3_gps_hydro" "proteus3_compass_hydro" "roscpp" "rospy" "std_msgs" "traxxas_node")
+set(outdoor_navigation_BUILDTOOL_DEPENDS "catkin")

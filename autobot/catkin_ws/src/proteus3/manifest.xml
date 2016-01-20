@@ -1,0 +1,16 @@
+<package>
+  <description brief="proteus3">
+
+     This package contains navigation software that allows
+     the Proteus3 robot to travel to a particular location
+     as specified by lat/lon coordinates.
+
+  </description>
+  <author>Chien-Liang Fok</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/proteus3</url>
+
+</package>
+
+

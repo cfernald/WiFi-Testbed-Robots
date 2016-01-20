@@ -1,0 +1,16 @@
+<!--
+To call this file, run the following command in the terminal
+	roslaunch outdoor_navigation navigate.launch f:="filename"
+filename is the name of the csv file in the waypoints folder in the outdoor_navigation package. 
+Note: ".csv" is automatically added to the filename automatically, you should not type it or save the file in a difference format
+-->
+
+<launch>
+  <arg name="f" default="waypoints.csv"/>
+  <arg name="id" default="0"/>
+  <node pkg="traxxas_node" type="driver.py" name="driver"/>
+  <node pkg="proteus3_gps_hydro" type="gps" name="gps"/>
+  <node pkg="proteus3_compass_hydro" type="compass" name="compass"/>
+  <node pkg="outdoor_navigation" type="store_navigation_profile" name="store_navigation_profile"/>
+  <node pkg="outdoor_navigation" type="outdoor_navigation_coordinated.py" name="outdoor_navigation_coordinated" output="screen" args="$(arg f) $(arg id)"/>
+</launch>

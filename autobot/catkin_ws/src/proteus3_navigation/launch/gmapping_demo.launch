@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find proteus3_navigation)/launch/includes/_gmapping.launch"/>
+</launch>
+
