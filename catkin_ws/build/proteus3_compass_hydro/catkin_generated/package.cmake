@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "proteus3_compass_hydro")
-set(proteus3_compass_hydro_MAINTAINER "pesantacruz <pesantacruz@todo.todo>")
-set(proteus3_compass_hydro_DEPRECATED "")
-set(proteus3_compass_hydro_VERSION "0.0.0")
-set(proteus3_compass_hydro_BUILD_DEPENDS "message_generation" "roscpp" "rospy" "serial" "std_msgs")
-set(proteus3_compass_hydro_RUN_DEPENDS "message_runtime" "roscpp" "rospy" "serial" "std_msgs")
-set(proteus3_compass_hydro_BUILDTOOL_DEPENDS "catkin")

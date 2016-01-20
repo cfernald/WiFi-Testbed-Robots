@@ -1,8 +1,0 @@
-prefix=/home/awesome/catkin_ws/devel
-
-Name: proteus3_navigation
-Description: Description of proteus3_navigation
-Version: 0.0.0
-Cflags: -I/home/awesome/catkin_ws/src/proteus3_navigation/include
-Libs: -L/home/awesome/catkin_ws/devel/lib 
-Requires: 

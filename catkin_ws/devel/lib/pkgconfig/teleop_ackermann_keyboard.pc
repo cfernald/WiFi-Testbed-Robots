@@ -1,8 +1,0 @@
-prefix=/home/awesome/catkin_ws/devel
-
-Name: teleop_ackermann_keyboard
-Description: Description of teleop_ackermann_keyboard
-Version: 0.0.0
-Cflags: -I/home/awesome/catkin_ws/src/teleop_ackermann_keyboard/include
-Libs: -L/home/awesome/catkin_ws/devel/lib 
-Requires: 

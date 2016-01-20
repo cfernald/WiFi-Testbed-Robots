@@ -1,8 +1,0 @@
-prefix=/home/awesome/catkin_ws/install
-
-Name: outdoor_navigation
-Description: Description of outdoor_navigation
-Version: 0.0.0
-Cflags: -I/home/awesome/catkin_ws/install/include
-Libs: -L/home/awesome/catkin_ws/install/lib 
-Requires: proteus3_compass_hydro proteus3_gps_hydro roscpp rospy std_msgs traxxas_node

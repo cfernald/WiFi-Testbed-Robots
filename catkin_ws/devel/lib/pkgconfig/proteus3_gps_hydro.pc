@@ -1,8 +1,0 @@
-prefix=/home/awesome/catkin_ws/devel
-
-Name: proteus3_gps_hydro
-Description: Description of proteus3_gps_hydro
-Version: 0.0.0
-Cflags: -I/home/awesome/catkin_ws/devel/include
-Libs: -L/home/awesome/catkin_ws/devel/lib 
-Requires: roscpp rospy serial std_msgs message_runtime

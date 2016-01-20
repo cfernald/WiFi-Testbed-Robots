@@ -1,4 +1,0 @@
-<launch>
-  <node pkg="traxxas_node" type="driver.py" name="driver"/>
-  <node pkg="teleop_ackermann_keyboard" type="teleop_ackermann_keyboard.py" name="teleop_ackermann_keyboard" output="screen"/>
-</launch>

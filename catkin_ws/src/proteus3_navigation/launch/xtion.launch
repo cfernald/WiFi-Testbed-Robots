@@ -1,7 +1,0 @@
-<launch>
-  <include file="$(find openni_launch)/launch/openni.launch">
-  </include>
-  <remap from="image" to="/camera/depth/image_raw"/>
-  <node name="depth_to_scan" pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" />
-</launch>
-
