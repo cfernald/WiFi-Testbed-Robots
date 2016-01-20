@@ -13,7 +13,7 @@ sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-key 0xB01FA116
 
 #update then install ros
 sudo apt-get update
-sudo apt-get install ros-indigo-desktop-full
+sudo apt-get install -y ros-indigo-desktop-full
 
 #Initialize rosdep
 sudo rosdep init
@@ -24,19 +24,18 @@ echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
 #ROS install
-sudo apt-get install python-rosinstall
+sudo apt-get install -y python-rosinstall
 
 ###########################################################
 #This is to install misc things to make other thigns work #
 ###########################################################
 #install roserial packages this is needed for the catkin packages
-sudo apt-get install ros-indigo-rosserial-arduino
-sudo apt-get install ros-indigo-rosserial
-sudo apt-get install rosserial
-sudo apt-get install serial
+sudo apt-get install -y ros-indigo-rosserial-arduino
+sudo apt-get install -y ros-indigo-rosserial
+sudo apt-get install -y ros-indigo-serial
 
 #This is to install the Arduino IDE
-sudo apt-get update && sudo apt-get install arduino arduino-core
+sudo apt-get update && sudo apt-get install -y arduino arduino-core
 
 
 ######################################################################
