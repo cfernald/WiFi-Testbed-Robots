@@ -48,7 +48,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs traxxas_node)
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-   INCLUDE_DIRS include
+#   INCLUDE_DIRS include
 #  LIBRARIES teleop_ackermann_keyboard
 #  CATKIN_DEPENDS roscpp rospy std_msgs traxxas_node
 #  DEPENDS system_lib
