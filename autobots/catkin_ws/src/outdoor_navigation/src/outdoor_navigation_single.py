@@ -129,9 +129,9 @@ def get_gps(data):
 	print cur_lon
 	target = open("sample",'w')
 	target.truncate()
-	target.write(cur_lat)
+	target.write(str(cur_lat))
 	target.write("\t")
-	target.write(cur_lon)
+	target.write(str(cur_lon))
 	target.write("\n")
 	target.close()
 	heading_gps = data.heading
