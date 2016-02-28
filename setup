@@ -66,3 +66,5 @@ source indigo
 cd ~/autobots
 rm -r src
 cd
+
+chown -R blue:blue ~/.ros/

@@ -1,0 +1,4 @@
+[INFO] [WallTime: 1456698694.899975] Serial port /dev/motor opened.
+[INFO] [WallTime: 1456698694.901333] Waiting 2s for Arduino to initialize...
+[INFO] [WallTime: 1456698696.915318] /traxxas_driver CommandSender: Thread starting.
+[INFO] [WallTime: 1456698696.927332] /traxxas_driver SerialMonitor: Thread starting.
