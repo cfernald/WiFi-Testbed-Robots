@@ -192,7 +192,7 @@ def getSpeed(self):
 if __name__ == '__main__':
 	rospy.init_node('traxxas_driver')
 
-	port = rospy.get_param('/traxxas_node/port', "/dev/ttyUSB0")
+	port = rospy.get_param('/traxxas_node/port', "/dev/motor")
 	baud = rospy.get_param('/traxxas_node/baud', 9600)
 	ser = serial.Serial(port, baud)
 
