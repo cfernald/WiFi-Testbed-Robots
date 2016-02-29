@@ -14,11 +14,12 @@ run
 $ chmod 755 setup
 $ source ./setup
 
-then to set the port stuu
+then to set the port setup
+get on as super user
+$ sudo su
 plug in the motor thing
 $ source motorPort
 unplug then plug in the gps
 $ source gpsPort
 now set the udev rules
-$ source port
-now restart your computer
+

@@ -41,15 +41,14 @@ sudo apt-get update && sudo apt-get install -y arduino arduino-core
 ######################################################################
 This is to install all of the catkin packages and set everything up #
 ######################################################################
-#this will set up the scripts and stuff
-cd ~/autobots/USB
-sudo cp -v ~/autobots/USB/80-persistent-net.rules /etc/udev/rules.d/80-persistent-net.rules
-cp -R -v  ~/autobots/bin ~/
+s will set up the scripts and stuff
+cp -R -v  ~/autobots/autobots/bin ~/
 cd ~/bin
 chmod 755 indigo
 chmod 755 setPort
 chmod 755 motorPort
 chmod 755 gpsPort
+chmod 755 wtfWiFi
 export PATH=$PATH:~/bin
 source ~/.bashrc
 cd
@@ -58,23 +57,25 @@ cd
 mkdir -p -v ~/catkin_ws/src
 cd ~/catkin_ws/src
 catkin_init_workspace
+cd ../
+catkin_make
 
 #go through catkin and make all ofthe .py files executable
 cd ~/autobots/catkin_ws/src
 for f in $(find . -name "*.py"); do
-	chmod +x $f
+        chmod +x $f
 done
 
 #set up the catkin ws and make it
-cp -R -v ~/autobots/catkin_ws/src ~/autobots/
+cp -R -v ~/autobots/autobots/catkin_ws/src ~/autobots/
 rm -r ~/autobots/src/traxxas_node
 rm -r ~/autobots/src/outdoor_navigation
-cp -R -v ~/autobots/catkin_ws/src/traxxas_node ~/catkin_ws/src
+cp -R -v ~/autobots/autobots/catkin_ws/src/traxxas_node ~/catkin_ws/src
 source indigo
 cd ~/autobbots/src
 cp -R -v ~/autobots/src/* ~/catkin_ws/src
 source indigo
-cp -R -v ~/autobots/catkin_ws/src/outdoor_navigation ~/catkin_ws/src
+cp -R -v ~/autobots/autobots/catkin_ws/src/outdoor_navigation ~/catkin_ws/src
 source indigo
 cd ~/autobots
 rm -r src
@@ -82,3 +83,4 @@ cd
 
 sudo usermod -a -G dialout blue
 chown -R blue:blue ~/.ros/
+
