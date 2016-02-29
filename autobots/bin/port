@@ -1,0 +1,4 @@
+cd ~/autobots
+sudo cp -v ~/autobots/99-persistent-net.rules /etc/udev/rules.d/99-persistent-net.rules
+
+echo "please restart meee <3"
