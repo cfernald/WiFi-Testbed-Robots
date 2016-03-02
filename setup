@@ -60,11 +60,6 @@ catkin_init_workspace
 cd ../
 catkin_make
 
-#go through catkin and make all ofthe .py files executable
-cd ~/autobots/catkin_ws/src
-for f in $(find . -name "*.py"); do
-        chmod +x $f
-done
 
 #set up the catkin ws and make it
 cp -R -v ~/autobots/autobots/catkin_ws/src ~/autobots/
@@ -80,6 +75,11 @@ source indigo
 cd ~/autobots
 rm -r src
 cd
+#go through catkin and make all ofthe .py files executable
+cd ~/catkin_ws/src
+for f in $(find . -name "*.py"); do
+        chmod +x $f
+done
 
 sudo usermod -a -G dialout blue
 chown -R blue:blue ~/.ros/
