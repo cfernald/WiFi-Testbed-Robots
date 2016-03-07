@@ -1,0 +1,4 @@
+<launch>
+ <node pkg="proteus3_gps_hydro" type="gps" name="gps" output="screen"/>
+</launch>
+

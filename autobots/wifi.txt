@@ -1,0 +1,361 @@
+wlan0     Scan completed :
+          Cell 01 - Address: 1C:6A:7A:A9:5C:00
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=66/70  Signal level=-44 dBm  
+                    Encryption key:off
+                    ESSID:"utexas-wifi-help"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=000003ff69ecefd9
+                    Extra: Last beacon: 2340ms ago
+                    IE: Unknown: 00107574657861732D776966692D68656C70
+                    IE: Unknown: 010698243048606C
+                    IE: Unknown: 030101
+                    IE: Unknown: 0706555320010B1E
+                    IE: Unknown: 0B050800098D5B
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 2D1AAC191BFFFF000000000000000000000000000000000000000000
+                    IE: Unknown: 3D1601080400000000000000000000000000000000000000
+                    IE: Unknown: 7F06001000000040
+                    IE: Unknown: 851E04008F000F00FF03590041502D4143413141314430312D4143000800004E
+                    IE: Unknown: 9606004096001400
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B09
+                    IE: Unknown: DD050040961400
+          Cell 02 - Address: 00:26:CB:16:DC:00
+                    Channel:6
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=32/70  Signal level=-78 dBm  
+                    Encryption key:off
+                    ESSID:"utexas-wifi-help"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=000003ff6070eae5
+                    Extra: Last beacon: 2340ms ago
+                    IE: Unknown: 00107574657861732D776966692D68656C70
+                    IE: Unknown: 010698243048606C
+                    IE: Unknown: 030106
+                    IE: Unknown: 0706555320010B1E
+                    IE: Unknown: 0B050700058D5B
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 2D1A2C181BFFFF000000000000000000000000000000000000000000
+                    IE: Unknown: 3D1606080400000000000000000000000000000000000000
+                    IE: Unknown: 7F06001000000040
+                    IE: Unknown: 851E02008F000F00FF03590041502D4143413141314430382D41430007000036
+                    IE: Unknown: 9606004096001400
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B09
+                    IE: Unknown: DD050040961400
+          Cell 03 - Address: 1C:6A:7A:E9:68:F0
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=34/70  Signal level=-76 dBm  
+                    Encryption key:off
+                    ESSID:"utexas-wifi-help"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=000003ff5b4ebecf
+                    Extra: Last beacon: 2340ms ago
+                    IE: Unknown: 00107574657861732D776966692D68656C70
+                    IE: Unknown: 010698243048606C
+                    IE: Unknown: 03010B
+                    IE: Unknown: 0706555320010B1E
+                    IE: Unknown: 0B050F00098D5B
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 2D1AAC191BFFFF000000000000000000000000000000000000000000
+                    IE: Unknown: 3D160B080400000000000000000000000000000000000000
+                    IE: Unknown: 7F06001000000040
+                    IE: Unknown: 851E06008F000F00FF03590041502D4143413141314430322D4143000F00004E
+                    IE: Unknown: 9606004096001400
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B09
+                    IE: Unknown: DD050040961400
+          Cell 04 - Address: 00:26:CB:16:DC:02
+                    Channel:6
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=30/70  Signal level=-80 dBm  
+                    Encryption key:on
+                    ESSID:"utexas"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=000003ff5f0b3815
+                    Extra: Last beacon: 25760ms ago
+                    IE: Unknown: 0006757465786173
+                    IE: Unknown: 010698243048606C
+                    IE: Unknown: 030106
+                    IE: Unknown: 0706555320010B1E
+                    IE: Unknown: 0B050700098D5B
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 2D1A2C181BFFFF000000000000000000000000000000000000000000
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : 802.1x
+                    IE: Unknown: 3D1606080400000000000000000000000000000000000000
+                    IE: Unknown: 7F06001000000040
+                    IE: Unknown: 851E02008F000F00FF03590041502D4143413141314430382D41430007000036
+                    IE: Unknown: 9606004096001400
+                    IE: WPA Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (1) : TKIP
+                        Authentication Suites (1) : 802.1x
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B09
+                    IE: Unknown: DD050040961401
+          Cell 05 - Address: 68:86:A7:D7:EC:60
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=35/70  Signal level=-75 dBm  
+                    Encryption key:off
+                    ESSID:"utexas-wifi-help"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=000003ff8394c255
+                    Extra: Last beacon: 8196ms ago
+                    IE: Unknown: 00107574657861732D776966692D68656C70
+                    IE: Unknown: 010698243048606C
+                    IE: Unknown: 03010B
+                    IE: Unknown: 0706555320010B1E
+                    IE: Unknown: 0B0502001C8D5B
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 2D1AAC191BFFFFFF0000000000000000000000000000000000000000
+                    IE: Unknown: 3D160B080400000000000000000000000000000000000000
+                    IE: Unknown: 7F06001000000040
+                    IE: Unknown: 851E05008F000F00FF03590041502D4D4242324E31574230365746000200003C
+                    IE: Unknown: 9606004096001400
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B09
+                    IE: Unknown: DD050040961400
+          Cell 06 - Address: 1C:6A:7A:A9:5C:04
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=63/70  Signal level=-47 dBm  
+                    Encryption key:off
+                    ESSID:"attwifi"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=000003ff69949822
+                    Extra: Last beacon: 9028ms ago
+                    IE: Unknown: 000761747477696669
+                    IE: Unknown: 010698243048606C
+                    IE: Unknown: 030101
+                    IE: Unknown: 050400010000
+                    IE: Unknown: 0706555320010B1E
+                    IE: Unknown: 0B050800078D5B
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 2D1AAC191BFFFF000000000000000000000000000000000000000000
+                    IE: Unknown: 3D1601080400000000000000000000000000000000000000
+                    IE: Unknown: 7F06001000000040
+                    IE: Unknown: 851E04008F000F00FF03590041502D4143413141314430312D4143000800004E
+                    IE: Unknown: 9606004096001400
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B09
+                    IE: Unknown: DD050040961400
+          Cell 07 - Address: 1C:6A:7A:A9:5C:02
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=66/70  Signal level=-44 dBm  
+                    Encryption key:on
+                    ESSID:"utexas"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=000003ff69edd822
+                    Extra: Last beacon: 3168ms ago
+                    IE: Unknown: 0006757465786173
+                    IE: Unknown: 010698243048606C
+                    IE: Unknown: 030101
+                    IE: Unknown: 050400010100
+                    IE: Unknown: 0706555320010B1E
+                    IE: Unknown: 0B050800098D5B
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 2D1AAC191BFFFF000000000000000000000000000000000000000000
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : 802.1x
+                    IE: Unknown: 3D1601080400000000000000000000000000000000000000
+                    IE: Unknown: 7F06001000000040
+                    IE: Unknown: 851E04008F000F00FF03590041502D4143413141314430312D4143000800004E
+                    IE: Unknown: 9606004096001400
+                    IE: WPA Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (1) : TKIP
+                        Authentication Suites (1) : 802.1x
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B09
+                    IE: Unknown: DD050040961401
+          Cell 08 - Address: 1C:6A:7A:E9:68:F4
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=27/70  Signal level=-83 dBm  
+                    Encryption key:off
+                    ESSID:"attwifi"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=000003ff5af5326d
+                    Extra: Last beacon: 2612ms ago
+                    IE: Unknown: 000761747477696669
+                    IE: Unknown: 010698243048606C
+                    IE: Unknown: 03010B
+                    IE: Unknown: 0706555320010B1E
+                    IE: Unknown: 0B050F000F8D5B
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 2D1AAC191BFFFF000000000000000000000000000000000000000000
+                    IE: Unknown: 3D160B080400000000000000000000000000000000000000
+                    IE: Unknown: 7F06001000000040
+                    IE: Unknown: 851E0C008F000F00FF03590041502D4143413141314430322D4143000F00004E
+                    IE: Unknown: 9606004096001400
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B09
+                    IE: Unknown: DD050040961400
+          Cell 09 - Address: 68:86:A7:D7:EC:62
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=29/70  Signal level=-81 dBm  
+                    Encryption key:on
+                    ESSID:"utexas"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=000003ff83eef022
+                    Extra: Last beacon: 2612ms ago
+                    IE: Unknown: 0006757465786173
+                    IE: Unknown: 010698243048606C
+                    IE: Unknown: 03010B
+                    IE: Unknown: 050400010000
+                    IE: Unknown: 0706555320010B1E
+                    IE: Unknown: 0B0502001D8D5B
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 2D1AAC191BFFFFFF0000000000000000000000000000000000000000
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : 802.1x
+                    IE: Unknown: 3D160B080400000000000000000000000000000000000000
+                    IE: Unknown: 7F06001000000040
+                    IE: Unknown: 851E05008F000F00FF03590041502D4D4242324E31574230365746000200003C
+                    IE: Unknown: 9606004096001400
+                    IE: WPA Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (1) : TKIP
+                        Authentication Suites (1) : 802.1x
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B09
+                    IE: Unknown: DD050040961401
+          Cell 10 - Address: 1C:6A:7A:E9:68:F2
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=27/70  Signal level=-83 dBm  
+                    Encryption key:on
+                    ESSID:"utexas"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=000003ff5af5037c
+                    Extra: Last beacon: 2600ms ago
+                    IE: Unknown: 0006757465786173
+                    IE: Unknown: 010698243048606C
+                    IE: Unknown: 03010B
+                    IE: Unknown: 0706555320010B1E
+                    IE: Unknown: 0B050F000F8D5B
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 2D1AAC191BFFFF000000000000000000000000000000000000000000
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : 802.1x
+                    IE: Unknown: 3D160B080400000000000000000000000000000000000000
+                    IE: Unknown: 7F06001000000040
+                    IE: Unknown: 851E0C008F000F00FF03590041502D4143413141314430322D4143000F00004E
+                    IE: Unknown: 9606004096001400
+                    IE: WPA Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (1) : TKIP
+                        Authentication Suites (1) : 802.1x
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B09
+                    IE: Unknown: DD050040961401
+          Cell 11 - Address: 00:26:CB:16:DC:04
+                    Channel:6
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=32/70  Signal level=-78 dBm  
+                    Encryption key:off
+                    ESSID:"attwifi"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=000003ff5f0b65f6
+                    Extra: Last beacon: 2848ms ago
+                    IE: Unknown: 000761747477696669
+                    IE: Unknown: 010698243048606C
+                    IE: Unknown: 030106
+                    IE: Unknown: 0706555320010B1E
+                    IE: Unknown: 0B050700098D5B
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 2D1A2C181BFFFF000000000000000000000000000000000000000000
+                    IE: Unknown: 3D1606080400000000000000000000000000000000000000
+                    IE: Unknown: 7F06001000000040
+                    IE: Unknown: 851E02008F000F00FF03590041502D4143413141314430382D41430007000036
+                    IE: Unknown: 9606004096001400
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B09
+                    IE: Unknown: DD050040961400
+          Cell 12 - Address: 00:26:CB:D2:00:80
+                    Channel:1
+                    Frequency:2.412 GHz (Channel 1)
+                    Quality=28/70  Signal level=-82 dBm  
+                    Encryption key:off
+                    ESSID:"utexas-wifi-help"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=000003ff637f95ae
+                    Extra: Last beacon: 2340ms ago
+                    IE: Unknown: 00107574657861732D776966692D68656C70
+                    IE: Unknown: 010698243048606C
+                    IE: Unknown: 030101
+                    IE: Unknown: 0706555320010B1E
+                    IE: Unknown: 0B050800088D5B
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 2D1A2C181BFFFF000000000000000000000000000000000000000000
+                    IE: Unknown: 3D1601080400000000000000000000000000000000000000
+                    IE: Unknown: 7F06001000000040
+                    IE: Unknown: 851E05008F000F00FF03590041502D4143413141314430332D41430008000036
+                    IE: Unknown: 9606004096001400
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD06004096010104
+                    IE: Unknown: DD050040960305
+                    IE: Unknown: DD050040960B09
+                    IE: Unknown: DD050040961400
+

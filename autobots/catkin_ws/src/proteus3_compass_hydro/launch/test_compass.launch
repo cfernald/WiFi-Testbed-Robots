@@ -1,0 +1,4 @@
+<launch>
+ <node pkg="proteus3_compass_hydro" type="compass" name="compass" output="screen"/>
+</launch>
+
