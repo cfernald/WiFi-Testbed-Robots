@@ -86,6 +86,7 @@ include_directories(
   add_executable(gps src/gps.cpp)
 
   add_executable(rec_gps src/rec_gps.cpp)
+ add_executable(gps_read src/gps_read.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
@@ -97,6 +98,9 @@ include_directories(
   )
 
   target_link_libraries(rec_gps
+    ${catkin_LIBRARIES}
+) 
+  target_link_libraries(gps_read
     ${catkin_LIBRARIES}
   )
 

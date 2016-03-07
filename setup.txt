@@ -22,4 +22,18 @@ $ source motorPort
 unplug then plug in the gps
 $ source gpsPort
 now set the udev rules
+############################################################################
+this is how explaing stuff
+##########################################################################
 
+to run the scripts to test things
+
+1) $ source indigo
+
+2)
+	a) to test the motor run
+	$ roslaunch traxxas_node test_drive.launch
+	b) to test the motor run
+	$ roslaunch proteus3_compass_hydro test_compass.launch
+	c) to test the gps run
+	$ roslaunch proteus3_gps_hydro test_gps.launch

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/awesome/catkin_ws/devel/include/proteus3_compass_hydro/CompassMsg.h
+/home/blue/catkin_ws/devel/include/proteus3_compass_hydro/CompassMsg.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/awesome/catkin_ws/src/proteus3_compass_hydro/src/compass.cpp
+/home/blue/catkin_ws/src/proteus3_compass_hydro/src/compass.cpp
 string
 -
 iostream
@@ -30,11 +30,11 @@ iostream
 cstdio
 -
 serial/serial.h
-/home/awesome/catkin_ws/src/proteus3_compass_hydro/src/serial/serial.h
+/home/blue/catkin_ws/src/proteus3_compass_hydro/src/serial/serial.h
 ros/ros.h
-/home/awesome/catkin_ws/src/proteus3_compass_hydro/src/ros/ros.h
+/home/blue/catkin_ws/src/proteus3_compass_hydro/src/ros/ros.h
 proteus3_compass_hydro/CompassMsg.h
-/home/awesome/catkin_ws/src/proteus3_compass_hydro/src/proteus3_compass_hydro/CompassMsg.h
+/home/blue/catkin_ws/src/proteus3_compass_hydro/src/proteus3_compass_hydro/CompassMsg.h
 sstream
 -
 

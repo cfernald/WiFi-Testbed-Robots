@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include outdoor_navigation/CMakeFiles/store_navigation_profile.dir/depend.make
@@ -50,18 +50,18 @@ include outdoor_navigation/CMakeFiles/store_navigation_profile.dir/progress.make
 include outdoor_navigation/CMakeFiles/store_navigation_profile.dir/flags.make
 
 outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o: outdoor_navigation/CMakeFiles/store_navigation_profile.dir/flags.make
-outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o: /home/awesome/catkin_ws/src/outdoor_navigation/src/store_navigation_profile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/awesome/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o: /home/blue/catkin_ws/src/outdoor_navigation/src/store_navigation_profile.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/blue/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o"
-	cd /home/awesome/catkin_ws/build/outdoor_navigation && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o -c /home/awesome/catkin_ws/src/outdoor_navigation/src/store_navigation_profile.cpp
+	cd /home/blue/catkin_ws/build/outdoor_navigation && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o -c /home/blue/catkin_ws/src/outdoor_navigation/src/store_navigation_profile.cpp
 
 outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.i"
-	cd /home/awesome/catkin_ws/build/outdoor_navigation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/awesome/catkin_ws/src/outdoor_navigation/src/store_navigation_profile.cpp > CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.i
+	cd /home/blue/catkin_ws/build/outdoor_navigation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/blue/catkin_ws/src/outdoor_navigation/src/store_navigation_profile.cpp > CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.i
 
 outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.s"
-	cd /home/awesome/catkin_ws/build/outdoor_navigation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/awesome/catkin_ws/src/outdoor_navigation/src/store_navigation_profile.cpp -o CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.s
+	cd /home/blue/catkin_ws/build/outdoor_navigation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/blue/catkin_ws/src/outdoor_navigation/src/store_navigation_profile.cpp -o CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.s
 
 outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o.requires:
 .PHONY : outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o.requires
@@ -79,47 +79,47 @@ store_navigation_profile_OBJECTS = \
 # External object files for target store_navigation_profile
 store_navigation_profile_EXTERNAL_OBJECTS =
 
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build.make
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libserial.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libtf.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libtf2_ros.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libactionlib.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libmessage_filters.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libroscpp.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libtf2.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/librosconsole.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/liblog4cxx.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/librostime.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libcpp_common.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: outdoor_navigation/CMakeFiles/store_navigation_profile.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile"
-	cd /home/awesome/catkin_ws/build/outdoor_navigation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/store_navigation_profile.dir/link.txt --verbose=$(VERBOSE)
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build.make
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libserial.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libtf.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libtf2_ros.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libactionlib.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libmessage_filters.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libroscpp.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libtf2.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/librosconsole.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/liblog4cxx.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/librostime.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /opt/ros/indigo/lib/libcpp_common.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile: outdoor_navigation/CMakeFiles/store_navigation_profile.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile"
+	cd /home/blue/catkin_ws/build/outdoor_navigation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/store_navigation_profile.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build: /home/awesome/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile
+outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build: /home/blue/catkin_ws/devel/lib/outdoor_navigation/store_navigation_profile
 .PHONY : outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build
 
 outdoor_navigation/CMakeFiles/store_navigation_profile.dir/requires: outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o.requires
 .PHONY : outdoor_navigation/CMakeFiles/store_navigation_profile.dir/requires
 
 outdoor_navigation/CMakeFiles/store_navigation_profile.dir/clean:
-	cd /home/awesome/catkin_ws/build/outdoor_navigation && $(CMAKE_COMMAND) -P CMakeFiles/store_navigation_profile.dir/cmake_clean.cmake
+	cd /home/blue/catkin_ws/build/outdoor_navigation && $(CMAKE_COMMAND) -P CMakeFiles/store_navigation_profile.dir/cmake_clean.cmake
 .PHONY : outdoor_navigation/CMakeFiles/store_navigation_profile.dir/clean
 
 outdoor_navigation/CMakeFiles/store_navigation_profile.dir/depend:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awesome/catkin_ws/src /home/awesome/catkin_ws/src/outdoor_navigation /home/awesome/catkin_ws/build /home/awesome/catkin_ws/build/outdoor_navigation /home/awesome/catkin_ws/build/outdoor_navigation/CMakeFiles/store_navigation_profile.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/blue/catkin_ws/src /home/blue/catkin_ws/src/outdoor_navigation /home/blue/catkin_ws/build /home/blue/catkin_ws/build/outdoor_navigation /home/blue/catkin_ws/build/outdoor_navigation/CMakeFiles/store_navigation_profile.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : outdoor_navigation/CMakeFiles/store_navigation_profile.dir/depend
 

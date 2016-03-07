@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 # Utility rule file for proteus3_navigation_gencpp.
 
@@ -56,10 +56,10 @@ proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/build: proteus3_na
 .PHONY : proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/build
 
 proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/clean:
-	cd /home/awesome/catkin_ws/build/proteus3_navigation && $(CMAKE_COMMAND) -P CMakeFiles/proteus3_navigation_gencpp.dir/cmake_clean.cmake
+	cd /home/blue/catkin_ws/build/proteus3_navigation && $(CMAKE_COMMAND) -P CMakeFiles/proteus3_navigation_gencpp.dir/cmake_clean.cmake
 .PHONY : proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/clean
 
 proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/depend:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awesome/catkin_ws/src /home/awesome/catkin_ws/src/proteus3_navigation /home/awesome/catkin_ws/build /home/awesome/catkin_ws/build/proteus3_navigation /home/awesome/catkin_ws/build/proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/blue/catkin_ws/src /home/blue/catkin_ws/src/proteus3_navigation /home/blue/catkin_ws/build /home/blue/catkin_ws/build/proteus3_navigation /home/blue/catkin_ws/build/proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/depend
 

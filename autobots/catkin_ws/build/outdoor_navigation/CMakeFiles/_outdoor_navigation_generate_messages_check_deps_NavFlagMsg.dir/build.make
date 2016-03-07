@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 # Utility rule file for _outdoor_navigation_generate_messages_check_deps_NavFlagMsg.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
 include outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/progress.make
 
 outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg:
-	cd /home/awesome/catkin_ws/build/outdoor_navigation && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py outdoor_navigation /home/awesome/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg 
+	cd /home/blue/catkin_ws/build/outdoor_navigation && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py outdoor_navigation /home/blue/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg 
 
 _outdoor_navigation_generate_messages_check_deps_NavFlagMsg: outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg
 _outdoor_navigation_generate_messages_check_deps_NavFlagMsg: outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/build.make
@@ -57,10 +57,10 @@ outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_N
 .PHONY : outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/build
 
 outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/clean:
-	cd /home/awesome/catkin_ws/build/outdoor_navigation && $(CMAKE_COMMAND) -P CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/cmake_clean.cmake
+	cd /home/blue/catkin_ws/build/outdoor_navigation && $(CMAKE_COMMAND) -P CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/cmake_clean.cmake
 .PHONY : outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/clean
 
 outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/depend:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awesome/catkin_ws/src /home/awesome/catkin_ws/src/outdoor_navigation /home/awesome/catkin_ws/build /home/awesome/catkin_ws/build/outdoor_navigation /home/awesome/catkin_ws/build/outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/blue/catkin_ws/src /home/blue/catkin_ws/src/outdoor_navigation /home/blue/catkin_ws/build /home/blue/catkin_ws/build/outdoor_navigation /home/blue/catkin_ws/build/outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/depend
 

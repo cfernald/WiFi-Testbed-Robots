@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/awesome/catkin_ws/build/CMakeFiles /home/awesome/catkin_ws/build/traxxas_node/CMakeFiles/progress.marks
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/awesome/catkin_ws/build/CMakeFiles 0
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/blue/catkin_ws/build/CMakeFiles /home/blue/catkin_ws/build/traxxas_node/CMakeFiles/progress.marks
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blue/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/clean
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/preinstall
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/preinstall
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannDriveMsg.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannDriveMsg.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannDriveMsg.dir/rule
 .PHONY : traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannDriveMsg.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ _traxxas_node_generate_messages_check_deps_AckermannDriveMsg: traxxas_node/CMake
 
 # fast build rule for target.
 _traxxas_node_generate_messages_check_deps_AckermannDriveMsg/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannDriveMsg.dir/build.make traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannDriveMsg.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannDriveMsg.dir/build.make traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannDriveMsg.dir/build
 .PHONY : _traxxas_node_generate_messages_check_deps_AckermannDriveMsg/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannMonitorMsg.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannMonitorMsg.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannMonitorMsg.dir/rule
 .PHONY : traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannMonitorMsg.dir/rule
 
 # Convenience name for target.
@@ -174,12 +174,12 @@ _traxxas_node_generate_messages_check_deps_AckermannMonitorMsg: traxxas_node/CMa
 
 # fast build rule for target.
 _traxxas_node_generate_messages_check_deps_AckermannMonitorMsg/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannMonitorMsg.dir/build.make traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannMonitorMsg.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannMonitorMsg.dir/build.make traxxas_node/CMakeFiles/_traxxas_node_generate_messages_check_deps_AckermannMonitorMsg.dir/build
 .PHONY : _traxxas_node_generate_messages_check_deps_AckermannMonitorMsg/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ actionlib_generate_messages_cpp: traxxas_node/CMakeFiles/actionlib_generate_mess
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ actionlib_generate_messages_lisp: traxxas_node/CMakeFiles/actionlib_generate_mes
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/actionlib_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : traxxas_node/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ actionlib_generate_messages_py: traxxas_node/CMakeFiles/actionlib_generate_messa
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/actionlib_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/actionlib_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/actionlib_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ actionlib_msgs_generate_messages_cpp: traxxas_node/CMakeFiles/actionlib_msgs_gen
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ actionlib_msgs_generate_messages_lisp: traxxas_node/CMakeFiles/actionlib_msgs_ge
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 .PHONY : traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ actionlib_msgs_generate_messages_py: traxxas_node/CMakeFiles/actionlib_msgs_gene
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ geometry_msgs_generate_messages_cpp: traxxas_node/CMakeFiles/geometry_msgs_gener
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -286,12 +286,12 @@ geometry_msgs_generate_messages_lisp: traxxas_node/CMakeFiles/geometry_msgs_gene
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : traxxas_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -300,12 +300,12 @@ geometry_msgs_generate_messages_py: traxxas_node/CMakeFiles/geometry_msgs_genera
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ nav_msgs_generate_messages_cpp: traxxas_node/CMakeFiles/nav_msgs_generate_messag
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -328,12 +328,12 @@ nav_msgs_generate_messages_lisp: traxxas_node/CMakeFiles/nav_msgs_generate_messa
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 .PHONY : traxxas_node/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ nav_msgs_generate_messages_py: traxxas_node/CMakeFiles/nav_msgs_generate_message
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -356,12 +356,12 @@ sensor_msgs_generate_messages_cpp: traxxas_node/CMakeFiles/sensor_msgs_generate_
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -370,12 +370,12 @@ sensor_msgs_generate_messages_lisp: traxxas_node/CMakeFiles/sensor_msgs_generate
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 .PHONY : traxxas_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -384,12 +384,12 @@ sensor_msgs_generate_messages_py: traxxas_node/CMakeFiles/sensor_msgs_generate_m
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -398,12 +398,12 @@ tf2_msgs_generate_messages_cpp: traxxas_node/CMakeFiles/tf2_msgs_generate_messag
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -412,12 +412,12 @@ tf2_msgs_generate_messages_lisp: traxxas_node/CMakeFiles/tf2_msgs_generate_messa
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 .PHONY : traxxas_node/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -426,12 +426,12 @@ tf2_msgs_generate_messages_py: traxxas_node/CMakeFiles/tf2_msgs_generate_message
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/tf_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/tf_generate_messages_cpp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -440,12 +440,12 @@ tf_generate_messages_cpp: traxxas_node/CMakeFiles/tf_generate_messages_cpp.dir/r
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/tf_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/tf_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/tf_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -454,12 +454,12 @@ tf_generate_messages_lisp: traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/tf_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/tf_generate_messages_py.dir/rule
 .PHONY : traxxas_node/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -468,12 +468,12 @@ tf_generate_messages_py: traxxas_node/CMakeFiles/tf_generate_messages_py.dir/rul
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/tf_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/tf_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/tf_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/traxxas_node_gencpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_gencpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_gencpp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/traxxas_node_gencpp.dir/rule
 
 # Convenience name for target.
@@ -482,12 +482,12 @@ traxxas_node_gencpp: traxxas_node/CMakeFiles/traxxas_node_gencpp.dir/rule
 
 # fast build rule for target.
 traxxas_node_gencpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_gencpp.dir/build.make traxxas_node/CMakeFiles/traxxas_node_gencpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_gencpp.dir/build.make traxxas_node/CMakeFiles/traxxas_node_gencpp.dir/build
 .PHONY : traxxas_node_gencpp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/traxxas_node_generate_messages.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_generate_messages.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_generate_messages.dir/rule
 .PHONY : traxxas_node/CMakeFiles/traxxas_node_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -496,12 +496,12 @@ traxxas_node_generate_messages: traxxas_node/CMakeFiles/traxxas_node_generate_me
 
 # fast build rule for target.
 traxxas_node_generate_messages/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_generate_messages.dir/build.make traxxas_node/CMakeFiles/traxxas_node_generate_messages.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_generate_messages.dir/build.make traxxas_node/CMakeFiles/traxxas_node_generate_messages.dir/build
 .PHONY : traxxas_node_generate_messages/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/traxxas_node_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_generate_messages_cpp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/traxxas_node_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -510,12 +510,12 @@ traxxas_node_generate_messages_cpp: traxxas_node/CMakeFiles/traxxas_node_generat
 
 # fast build rule for target.
 traxxas_node_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/traxxas_node_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_generate_messages_cpp.dir/build.make traxxas_node/CMakeFiles/traxxas_node_generate_messages_cpp.dir/build
 .PHONY : traxxas_node_generate_messages_cpp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/traxxas_node_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_generate_messages_lisp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/traxxas_node_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -524,12 +524,12 @@ traxxas_node_generate_messages_lisp: traxxas_node/CMakeFiles/traxxas_node_genera
 
 # fast build rule for target.
 traxxas_node_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/traxxas_node_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_generate_messages_lisp.dir/build.make traxxas_node/CMakeFiles/traxxas_node_generate_messages_lisp.dir/build
 .PHONY : traxxas_node_generate_messages_lisp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/traxxas_node_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_generate_messages_py.dir/rule
 .PHONY : traxxas_node/CMakeFiles/traxxas_node_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -538,12 +538,12 @@ traxxas_node_generate_messages_py: traxxas_node/CMakeFiles/traxxas_node_generate
 
 # fast build rule for target.
 traxxas_node_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/traxxas_node_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_generate_messages_py.dir/build.make traxxas_node/CMakeFiles/traxxas_node_generate_messages_py.dir/build
 .PHONY : traxxas_node_generate_messages_py/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/traxxas_node_genlisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_genlisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_genlisp.dir/rule
 .PHONY : traxxas_node/CMakeFiles/traxxas_node_genlisp.dir/rule
 
 # Convenience name for target.
@@ -552,12 +552,12 @@ traxxas_node_genlisp: traxxas_node/CMakeFiles/traxxas_node_genlisp.dir/rule
 
 # fast build rule for target.
 traxxas_node_genlisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_genlisp.dir/build.make traxxas_node/CMakeFiles/traxxas_node_genlisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_genlisp.dir/build.make traxxas_node/CMakeFiles/traxxas_node_genlisp.dir/build
 .PHONY : traxxas_node_genlisp/fast
 
 # Convenience name for target.
 traxxas_node/CMakeFiles/traxxas_node_genpy.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_genpy.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 traxxas_node/CMakeFiles/traxxas_node_genpy.dir/rule
 .PHONY : traxxas_node/CMakeFiles/traxxas_node_genpy.dir/rule
 
 # Convenience name for target.
@@ -566,7 +566,7 @@ traxxas_node_genpy: traxxas_node/CMakeFiles/traxxas_node_genpy.dir/rule
 
 # fast build rule for target.
 traxxas_node_genpy/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_genpy.dir/build.make traxxas_node/CMakeFiles/traxxas_node_genpy.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f traxxas_node/CMakeFiles/traxxas_node_genpy.dir/build.make traxxas_node/CMakeFiles/traxxas_node_genpy.dir/build
 .PHONY : traxxas_node_genpy/fast
 
 # Help Target
@@ -623,6 +623,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

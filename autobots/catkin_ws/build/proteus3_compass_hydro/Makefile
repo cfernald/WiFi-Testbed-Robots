@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/awesome/catkin_ws/build/CMakeFiles /home/awesome/catkin_ws/build/proteus3_compass_hydro/CMakeFiles/progress.marks
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/awesome/catkin_ws/build/CMakeFiles 0
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/blue/catkin_ws/build/CMakeFiles /home/blue/catkin_ws/build/proteus3_compass_hydro/CMakeFiles/progress.marks
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blue/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/clean
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/preinstall
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/preinstall
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/_proteus3_compass_hydro_generate_messages_check_deps_CompassMsg.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/_proteus3_compass_hydro_generate_messages_check_deps_CompassMsg.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/_proteus3_compass_hydro_generate_messages_check_deps_CompassMsg.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/_proteus3_compass_hydro_generate_messages_check_deps_CompassMsg.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ _proteus3_compass_hydro_generate_messages_check_deps_CompassMsg: proteus3_compas
 
 # fast build rule for target.
 _proteus3_compass_hydro_generate_messages_check_deps_CompassMsg/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/_proteus3_compass_hydro_generate_messages_check_deps_CompassMsg.dir/build.make proteus3_compass_hydro/CMakeFiles/_proteus3_compass_hydro_generate_messages_check_deps_CompassMsg.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/_proteus3_compass_hydro_generate_messages_check_deps_CompassMsg.dir/build.make proteus3_compass_hydro/CMakeFiles/_proteus3_compass_hydro_generate_messages_check_deps_CompassMsg.dir/build
 .PHONY : _proteus3_compass_hydro_generate_messages_check_deps_CompassMsg/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/compass.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/compass.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/compass.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/compass.dir/rule
 
 # Convenience name for target.
@@ -174,12 +174,12 @@ compass: proteus3_compass_hydro/CMakeFiles/compass.dir/rule
 
 # fast build rule for target.
 compass/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/compass.dir/build.make proteus3_compass_hydro/CMakeFiles/compass.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/compass.dir/build.make proteus3_compass_hydro/CMakeFiles/compass.dir/build
 .PHONY : compass/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_gencpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_gencpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_gencpp.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_gencpp.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ proteus3_compass_hydro_gencpp: proteus3_compass_hydro/CMakeFiles/proteus3_compas
 
 # fast build rule for target.
 proteus3_compass_hydro_gencpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_gencpp.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_gencpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_gencpp.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_gencpp.dir/build
 .PHONY : proteus3_compass_hydro_gencpp/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ proteus3_compass_hydro_generate_messages: proteus3_compass_hydro/CMakeFiles/prot
 
 # fast build rule for target.
 proteus3_compass_hydro_generate_messages/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages.dir/build
 .PHONY : proteus3_compass_hydro_generate_messages/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_cpp.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ proteus3_compass_hydro_generate_messages_cpp: proteus3_compass_hydro/CMakeFiles/
 
 # fast build rule for target.
 proteus3_compass_hydro_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_cpp.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_cpp.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_cpp.dir/build
 .PHONY : proteus3_compass_hydro_generate_messages_cpp/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_lisp.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ proteus3_compass_hydro_generate_messages_lisp: proteus3_compass_hydro/CMakeFiles
 
 # fast build rule for target.
 proteus3_compass_hydro_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_lisp.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_lisp.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_lisp.dir/build
 .PHONY : proteus3_compass_hydro_generate_messages_lisp/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ proteus3_compass_hydro_generate_messages_py: proteus3_compass_hydro/CMakeFiles/p
 
 # fast build rule for target.
 proteus3_compass_hydro_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/build
 .PHONY : proteus3_compass_hydro_generate_messages_py/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genlisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genlisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genlisp.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genlisp.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ proteus3_compass_hydro_genlisp: proteus3_compass_hydro/CMakeFiles/proteus3_compa
 
 # fast build rule for target.
 proteus3_compass_hydro_genlisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genlisp.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genlisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genlisp.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genlisp.dir/build
 .PHONY : proteus3_compass_hydro_genlisp/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ proteus3_compass_hydro_genpy: proteus3_compass_hydro/CMakeFiles/proteus3_compass
 
 # fast build rule for target.
 proteus3_compass_hydro_genpy/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/build.make proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/build
 .PHONY : proteus3_compass_hydro_genpy/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -286,12 +286,12 @@ roscpp_generate_messages_cpp: proteus3_compass_hydro/CMakeFiles/roscpp_generate_
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -300,12 +300,12 @@ roscpp_generate_messages_lisp: proteus3_compass_hydro/CMakeFiles/roscpp_generate
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ roscpp_generate_messages_py: proteus3_compass_hydro/CMakeFiles/roscpp_generate_m
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_py.dir/build.make proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_py.dir/build.make proteus3_compass_hydro/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -328,12 +328,12 @@ rosgraph_msgs_generate_messages_cpp: proteus3_compass_hydro/CMakeFiles/rosgraph_
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ rosgraph_msgs_generate_messages_lisp: proteus3_compass_hydro/CMakeFiles/rosgraph
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -356,12 +356,12 @@ rosgraph_msgs_generate_messages_py: proteus3_compass_hydro/CMakeFiles/rosgraph_m
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make proteus3_compass_hydro/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -370,12 +370,12 @@ std_msgs_generate_messages_cpp: proteus3_compass_hydro/CMakeFiles/std_msgs_gener
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -384,12 +384,12 @@ std_msgs_generate_messages_lisp: proteus3_compass_hydro/CMakeFiles/std_msgs_gene
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -398,7 +398,7 @@ std_msgs_generate_messages_py: proteus3_compass_hydro/CMakeFiles/std_msgs_genera
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_py.dir/build.make proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_py.dir/build.make proteus3_compass_hydro/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 src/compass.o: src/compass.cpp.o
@@ -406,7 +406,7 @@ src/compass.o: src/compass.cpp.o
 
 # target to build an object file
 src/compass.cpp.o:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/compass.dir/build.make proteus3_compass_hydro/CMakeFiles/compass.dir/src/compass.cpp.o
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/compass.dir/build.make proteus3_compass_hydro/CMakeFiles/compass.dir/src/compass.cpp.o
 .PHONY : src/compass.cpp.o
 
 src/compass.i: src/compass.cpp.i
@@ -414,7 +414,7 @@ src/compass.i: src/compass.cpp.i
 
 # target to preprocess a source file
 src/compass.cpp.i:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/compass.dir/build.make proteus3_compass_hydro/CMakeFiles/compass.dir/src/compass.cpp.i
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/compass.dir/build.make proteus3_compass_hydro/CMakeFiles/compass.dir/src/compass.cpp.i
 .PHONY : src/compass.cpp.i
 
 src/compass.s: src/compass.cpp.s
@@ -422,7 +422,7 @@ src/compass.s: src/compass.cpp.s
 
 # target to generate assembly for a file
 src/compass.cpp.s:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/compass.dir/build.make proteus3_compass_hydro/CMakeFiles/compass.dir/src/compass.cpp.s
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_compass_hydro/CMakeFiles/compass.dir/build.make proteus3_compass_hydro/CMakeFiles/compass.dir/src/compass.cpp.s
 .PHONY : src/compass.cpp.s
 
 # Help Target
@@ -470,6 +470,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

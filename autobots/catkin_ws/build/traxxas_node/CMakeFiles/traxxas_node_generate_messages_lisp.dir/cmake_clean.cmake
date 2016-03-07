@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/traxxas_node_generate_messages_lisp"
-  "/home/awesome/catkin_ws/devel/share/common-lisp/ros/traxxas_node/msg/AckermannMonitorMsg.lisp"
-  "/home/awesome/catkin_ws/devel/share/common-lisp/ros/traxxas_node/msg/AckermannDriveMsg.lisp"
+  "/home/blue/catkin_ws/devel/share/common-lisp/ros/traxxas_node/msg/AckermannDriveMsg.lisp"
+  "/home/blue/catkin_ws/devel/share/common-lisp/ros/traxxas_node/msg/AckermannMonitorMsg.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

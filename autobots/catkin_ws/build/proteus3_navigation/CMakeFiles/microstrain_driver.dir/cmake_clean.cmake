@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/microstrain_driver.dir/src/microstrain_driver.cpp.o"
-  "/home/awesome/catkin_ws/devel/lib/proteus3_navigation/microstrain_driver.pdb"
-  "/home/awesome/catkin_ws/devel/lib/proteus3_navigation/microstrain_driver"
+  "/home/blue/catkin_ws/devel/lib/proteus3_navigation/microstrain_driver.pdb"
+  "/home/blue/catkin_ws/devel/lib/proteus3_navigation/microstrain_driver"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/rec_gps.dir/src/rec_gps.cpp.o"
-  "/home/awesome/catkin_ws/devel/lib/proteus3_gps_hydro/rec_gps.pdb"
-  "/home/awesome/catkin_ws/devel/lib/proteus3_gps_hydro/rec_gps"
+  "/home/blue/catkin_ws/devel/lib/proteus3_gps_hydro/rec_gps.pdb"
+  "/home/blue/catkin_ws/devel/lib/proteus3_gps_hydro/rec_gps"
 )
 
 # Per-language clean rules from dependency scanning.

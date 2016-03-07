@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/awesome/catkin_ws/build/CMakeFiles /home/awesome/catkin_ws/build/outdoor_navigation/CMakeFiles/progress.marks
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/awesome/catkin_ws/build/CMakeFiles 0
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/blue/catkin_ws/build/CMakeFiles /home/blue/catkin_ws/build/outdoor_navigation/CMakeFiles/progress.marks
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blue/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/clean
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/preinstall
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/preinstall
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/rule
 .PHONY : outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ _outdoor_navigation_generate_messages_check_deps_NavFlagMsg: outdoor_navigation/
 
 # fast build rule for target.
 _outdoor_navigation_generate_messages_check_deps_NavFlagMsg/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/build.make outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/build.make outdoor_navigation/CMakeFiles/_outdoor_navigation_generate_messages_check_deps_NavFlagMsg.dir/build
 .PHONY : _outdoor_navigation_generate_messages_check_deps_NavFlagMsg/fast
 
 # Convenience name for target.
 outdoor_navigation/CMakeFiles/outdoor_navigation_gencpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_gencpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_gencpp.dir/rule
 .PHONY : outdoor_navigation/CMakeFiles/outdoor_navigation_gencpp.dir/rule
 
 # Convenience name for target.
@@ -174,12 +174,12 @@ outdoor_navigation_gencpp: outdoor_navigation/CMakeFiles/outdoor_navigation_genc
 
 # fast build rule for target.
 outdoor_navigation_gencpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_gencpp.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_gencpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_gencpp.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_gencpp.dir/build
 .PHONY : outdoor_navigation_gencpp/fast
 
 # Convenience name for target.
 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages.dir/rule
 .PHONY : outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ outdoor_navigation_generate_messages: outdoor_navigation/CMakeFiles/outdoor_navi
 
 # fast build rule for target.
 outdoor_navigation_generate_messages/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages.dir/build
 .PHONY : outdoor_navigation_generate_messages/fast
 
 # Convenience name for target.
 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_cpp.dir/rule
 .PHONY : outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ outdoor_navigation_generate_messages_cpp: outdoor_navigation/CMakeFiles/outdoor_
 
 # fast build rule for target.
 outdoor_navigation_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_cpp.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_cpp.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_cpp.dir/build
 .PHONY : outdoor_navigation_generate_messages_cpp/fast
 
 # Convenience name for target.
 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_lisp.dir/rule
 .PHONY : outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ outdoor_navigation_generate_messages_lisp: outdoor_navigation/CMakeFiles/outdoor
 
 # fast build rule for target.
 outdoor_navigation_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_lisp.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_lisp.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_lisp.dir/build
 .PHONY : outdoor_navigation_generate_messages_lisp/fast
 
 # Convenience name for target.
 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/rule
 .PHONY : outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ outdoor_navigation_generate_messages_py: outdoor_navigation/CMakeFiles/outdoor_n
 
 # fast build rule for target.
 outdoor_navigation_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/build
 .PHONY : outdoor_navigation_generate_messages_py/fast
 
 # Convenience name for target.
 outdoor_navigation/CMakeFiles/outdoor_navigation_genlisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_genlisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_genlisp.dir/rule
 .PHONY : outdoor_navigation/CMakeFiles/outdoor_navigation_genlisp.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ outdoor_navigation_genlisp: outdoor_navigation/CMakeFiles/outdoor_navigation_gen
 
 # fast build rule for target.
 outdoor_navigation_genlisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_genlisp.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_genlisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_genlisp.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_genlisp.dir/build
 .PHONY : outdoor_navigation_genlisp/fast
 
 # Convenience name for target.
 outdoor_navigation/CMakeFiles/outdoor_navigation_genpy.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_genpy.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/outdoor_navigation_genpy.dir/rule
 .PHONY : outdoor_navigation/CMakeFiles/outdoor_navigation_genpy.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ outdoor_navigation_genpy: outdoor_navigation/CMakeFiles/outdoor_navigation_genpy
 
 # fast build rule for target.
 outdoor_navigation_genpy/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_genpy.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_genpy.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/outdoor_navigation_genpy.dir/build.make outdoor_navigation/CMakeFiles/outdoor_navigation_genpy.dir/build
 .PHONY : outdoor_navigation_genpy/fast
 
 # Convenience name for target.
 outdoor_navigation/CMakeFiles/store_navigation_profile.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/store_navigation_profile.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 outdoor_navigation/CMakeFiles/store_navigation_profile.dir/rule
 .PHONY : outdoor_navigation/CMakeFiles/store_navigation_profile.dir/rule
 
 # Convenience name for target.
@@ -272,7 +272,7 @@ store_navigation_profile: outdoor_navigation/CMakeFiles/store_navigation_profile
 
 # fast build rule for target.
 store_navigation_profile/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build.make outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build.make outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build
 .PHONY : store_navigation_profile/fast
 
 src/store_navigation_profile.o: src/store_navigation_profile.cpp.o
@@ -280,7 +280,7 @@ src/store_navigation_profile.o: src/store_navigation_profile.cpp.o
 
 # target to build an object file
 src/store_navigation_profile.cpp.o:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build.make outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o
+	cd /home/blue/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build.make outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o
 .PHONY : src/store_navigation_profile.cpp.o
 
 src/store_navigation_profile.i: src/store_navigation_profile.cpp.i
@@ -288,7 +288,7 @@ src/store_navigation_profile.i: src/store_navigation_profile.cpp.i
 
 # target to preprocess a source file
 src/store_navigation_profile.cpp.i:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build.make outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.i
+	cd /home/blue/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build.make outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.i
 .PHONY : src/store_navigation_profile.cpp.i
 
 src/store_navigation_profile.s: src/store_navigation_profile.cpp.s
@@ -296,7 +296,7 @@ src/store_navigation_profile.s: src/store_navigation_profile.cpp.s
 
 # target to generate assembly for a file
 src/store_navigation_profile.cpp.s:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build.make outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.s
+	cd /home/blue/catkin_ws/build && $(MAKE) -f outdoor_navigation/CMakeFiles/store_navigation_profile.dir/build.make outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.s
 .PHONY : src/store_navigation_profile.cpp.s
 
 # Help Target
@@ -335,6 +335,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/awesome/catkin_ws/src/proteus3_compass_hydro
+# Install script for directory: /home/blue/catkin_ws/src/proteus3_compass_hydro
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/awesome/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/blue/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,45 +33,45 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_compass_hydro/msg" TYPE FILE FILES "/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_compass_hydro/msg" TYPE FILE FILES "/home/blue/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_compass_hydro/cmake" TYPE FILE FILES "/home/awesome/catkin_ws/build/proteus3_compass_hydro/catkin_generated/installspace/proteus3_compass_hydro-msg-paths.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_compass_hydro/cmake" TYPE FILE FILES "/home/blue/catkin_ws/build/proteus3_compass_hydro/catkin_generated/installspace/proteus3_compass_hydro-msg-paths.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/awesome/catkin_ws/devel/include/proteus3_compass_hydro")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/blue/catkin_ws/devel/include/proteus3_compass_hydro")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/awesome/catkin_ws/devel/share/common-lisp/ros/proteus3_compass_hydro")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/blue/catkin_ws/devel/share/common-lisp/ros/proteus3_compass_hydro")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/awesome/catkin_ws/build/proteus3_compass_hydro/catkin_generated/installspace/proteus3_compass_hydro.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/blue/catkin_ws/build/proteus3_compass_hydro/catkin_generated/installspace/proteus3_compass_hydro.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_compass_hydro/cmake" TYPE FILE FILES "/home/awesome/catkin_ws/build/proteus3_compass_hydro/catkin_generated/installspace/proteus3_compass_hydro-msg-extras.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_compass_hydro/cmake" TYPE FILE FILES "/home/blue/catkin_ws/build/proteus3_compass_hydro/catkin_generated/installspace/proteus3_compass_hydro-msg-extras.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_compass_hydro/cmake" TYPE FILE FILES
-    "/home/awesome/catkin_ws/build/proteus3_compass_hydro/catkin_generated/installspace/proteus3_compass_hydroConfig.cmake"
-    "/home/awesome/catkin_ws/build/proteus3_compass_hydro/catkin_generated/installspace/proteus3_compass_hydroConfig-version.cmake"
+    "/home/blue/catkin_ws/build/proteus3_compass_hydro/catkin_generated/installspace/proteus3_compass_hydroConfig.cmake"
+    "/home/blue/catkin_ws/build/proteus3_compass_hydro/catkin_generated/installspace/proteus3_compass_hydroConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_compass_hydro" TYPE FILE FILES "/home/awesome/catkin_ws/src/proteus3_compass_hydro/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_compass_hydro" TYPE FILE FILES "/home/blue/catkin_ws/src/proteus3_compass_hydro/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

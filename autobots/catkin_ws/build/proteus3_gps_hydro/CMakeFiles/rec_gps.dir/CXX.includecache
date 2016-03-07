@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/awesome/catkin_ws/src/proteus3_gps_hydro/src/rec_gps.cpp
+/home/blue/catkin_ws/src/proteus3_gps_hydro/src/rec_gps.cpp
 string
 -
 iostream
@@ -20,11 +20,11 @@ sstream
 time.h
 -
 serial/serial.h
-/home/awesome/catkin_ws/src/proteus3_gps_hydro/src/serial/serial.h
+/home/blue/catkin_ws/src/proteus3_gps_hydro/src/serial/serial.h
 ros/ros.h
-/home/awesome/catkin_ws/src/proteus3_gps_hydro/src/ros/ros.h
+/home/blue/catkin_ws/src/proteus3_gps_hydro/src/ros/ros.h
 proteus3_gps_hydro/GPSMsg.h
-/home/awesome/catkin_ws/src/proteus3_gps_hydro/src/proteus3_gps_hydro/GPSMsg.h
+/home/blue/catkin_ws/src/proteus3_gps_hydro/src/proteus3_gps_hydro/GPSMsg.h
 
 /opt/ros/indigo/include/XmlRpcDecl.h
 ros/macros.h

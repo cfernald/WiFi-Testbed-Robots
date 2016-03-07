@@ -35,34 +35,34 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 # Utility rule file for proteus3_compass_hydro_generate_messages_py.
 
 # Include the progress variables for this target.
 include proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/progress.make
 
-proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py: /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/_CompassMsg.py
-proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py: /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/__init__.py
+proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py: /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/_CompassMsg.py
+proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py: /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/__init__.py
 
-/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/_CompassMsg.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
-/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/_CompassMsg.py: /home/awesome/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/awesome/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+/home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/_CompassMsg.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/_CompassMsg.py: /home/blue/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/blue/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG proteus3_compass_hydro/CompassMsg"
-	cd /home/awesome/catkin_ws/build/proteus3_compass_hydro && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/awesome/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg -Iproteus3_compass_hydro:/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iproteus3_compass_hydro:/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg -p proteus3_compass_hydro -o /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg
+	cd /home/blue/catkin_ws/build/proteus3_compass_hydro && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/blue/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg -Iproteus3_compass_hydro:/home/blue/catkin_ws/src/proteus3_compass_hydro/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iproteus3_compass_hydro:/home/blue/catkin_ws/src/proteus3_compass_hydro/msg -p proteus3_compass_hydro -o /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg
 
-/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/__init__.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
-/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/__init__.py: /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/_CompassMsg.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/awesome/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
+/home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/__init__.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/__init__.py: /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/_CompassMsg.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/blue/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python msg __init__.py for proteus3_compass_hydro"
-	cd /home/awesome/catkin_ws/build/proteus3_compass_hydro && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg --initpy
+	cd /home/blue/catkin_ws/build/proteus3_compass_hydro && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg --initpy
 
 proteus3_compass_hydro_generate_messages_py: proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py
-proteus3_compass_hydro_generate_messages_py: /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/_CompassMsg.py
-proteus3_compass_hydro_generate_messages_py: /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/__init__.py
+proteus3_compass_hydro_generate_messages_py: /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/_CompassMsg.py
+proteus3_compass_hydro_generate_messages_py: /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_compass_hydro/msg/__init__.py
 proteus3_compass_hydro_generate_messages_py: proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/build.make
 .PHONY : proteus3_compass_hydro_generate_messages_py
 
@@ -71,10 +71,10 @@ proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.di
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/build
 
 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/clean:
-	cd /home/awesome/catkin_ws/build/proteus3_compass_hydro && $(CMAKE_COMMAND) -P CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/blue/catkin_ws/build/proteus3_compass_hydro && $(CMAKE_COMMAND) -P CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/clean
 
 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/depend:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awesome/catkin_ws/src /home/awesome/catkin_ws/src/proteus3_compass_hydro /home/awesome/catkin_ws/build /home/awesome/catkin_ws/build/proteus3_compass_hydro /home/awesome/catkin_ws/build/proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/blue/catkin_ws/src /home/blue/catkin_ws/src/proteus3_compass_hydro /home/blue/catkin_ws/build /home/blue/catkin_ws/build/proteus3_compass_hydro /home/blue/catkin_ws/build/proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_generate_messages_py.dir/depend
 

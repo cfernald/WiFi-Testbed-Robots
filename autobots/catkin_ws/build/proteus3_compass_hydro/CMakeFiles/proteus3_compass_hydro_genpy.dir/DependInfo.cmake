@@ -16,8 +16,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/awesome/catkin_ws/devel/include"
-  "/home/awesome/catkin_ws/src/proteus3_compass_hydro/include"
+  "/home/blue/catkin_ws/devel/include"
+  "/home/blue/catkin_ws/src/proteus3_compass_hydro/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

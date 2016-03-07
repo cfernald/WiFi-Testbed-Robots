@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/awesome/catkin_ws/devel/include/proteus3_compass_hydro/CompassMsg.h
+/home/blue/catkin_ws/devel/include/proteus3_compass_hydro/CompassMsg.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/awesome/catkin_ws/devel/include/proteus3_gps_hydro/GPSMsg.h
+/home/blue/catkin_ws/devel/include/proteus3_gps_hydro/GPSMsg.h
 string
 -
 vector
@@ -38,7 +38,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/awesome/catkin_ws/src/outdoor_navigation/src/store_navigation_profile.cpp
+/home/blue/catkin_ws/src/outdoor_navigation/src/store_navigation_profile.cpp
 string
 -
 iostream
@@ -54,13 +54,13 @@ time.h
 fstream
 -
 serial/serial.h
-/home/awesome/catkin_ws/src/outdoor_navigation/src/serial/serial.h
+/home/blue/catkin_ws/src/outdoor_navigation/src/serial/serial.h
 ros/ros.h
-/home/awesome/catkin_ws/src/outdoor_navigation/src/ros/ros.h
+/home/blue/catkin_ws/src/outdoor_navigation/src/ros/ros.h
 proteus3_gps_hydro/GPSMsg.h
-/home/awesome/catkin_ws/src/outdoor_navigation/src/proteus3_gps_hydro/GPSMsg.h
+/home/blue/catkin_ws/src/outdoor_navigation/src/proteus3_gps_hydro/GPSMsg.h
 proteus3_compass_hydro/CompassMsg.h
-/home/awesome/catkin_ws/src/outdoor_navigation/src/proteus3_compass_hydro/CompassMsg.h
+/home/blue/catkin_ws/src/outdoor_navigation/src/proteus3_compass_hydro/CompassMsg.h
 
 /opt/ros/indigo/include/XmlRpcDecl.h
 ros/macros.h

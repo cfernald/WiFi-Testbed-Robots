@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/driver.dir/src/driver.cpp.o"
-  "/home/awesome/catkin_ws/devel/lib/proteus3_navigation/driver.pdb"
-  "/home/awesome/catkin_ws/devel/lib/proteus3_navigation/driver"
+  "/home/blue/catkin_ws/devel/lib/proteus3_navigation/driver.pdb"
+  "/home/blue/catkin_ws/devel/lib/proteus3_navigation/driver"
 )
 
 # Per-language clean rules from dependency scanning.

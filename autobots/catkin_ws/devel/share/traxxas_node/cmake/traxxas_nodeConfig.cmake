@@ -67,14 +67,14 @@ set(traxxas_node_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(traxxas_node_SOURCE_PREFIX /home/awesome/catkin_ws/src/traxxas_node)
-  set(traxxas_node_DEVEL_PREFIX /home/awesome/catkin_ws/devel)
+  set(traxxas_node_SOURCE_PREFIX /home/blue/catkin_ws/src/traxxas_node)
+  set(traxxas_node_DEVEL_PREFIX /home/blue/catkin_ws/devel)
   set(traxxas_node_INSTALL_PREFIX "")
   set(traxxas_node_PREFIX ${traxxas_node_DEVEL_PREFIX})
 else()
   set(traxxas_node_SOURCE_PREFIX "")
   set(traxxas_node_DEVEL_PREFIX "")
-  set(traxxas_node_INSTALL_PREFIX /home/awesome/catkin_ws/install)
+  set(traxxas_node_INSTALL_PREFIX /home/blue/catkin_ws/install)
   set(traxxas_node_PREFIX ${traxxas_node_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(traxxas_node_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/awesome/catkin_ws/devel/include;/home/awesome/catkin_ws/src/traxxas_node/include " STREQUAL " ")
+if(NOT "/home/blue/catkin_ws/devel/include " STREQUAL " ")
   set(traxxas_node_INCLUDE_DIRS "")
-  set(_include_dirs "/home/awesome/catkin_ws/devel/include;/home/awesome/catkin_ws/src/traxxas_node/include")
+  set(_include_dirs "/home/blue/catkin_ws/devel/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -103,7 +103,7 @@ if(NOT "/home/awesome/catkin_ws/devel/include;/home/awesome/catkin_ws/src/traxxa
         message(FATAL_ERROR "Project 'traxxas_node' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'ut <ut@todo.todo>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'traxxas_node' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/awesome/catkin_ws/src/traxxas_node/${idir}'.  Ask the maintainer 'ut <ut@todo.todo>' to fix it.")
+      message(FATAL_ERROR "Project 'traxxas_node' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/blue/catkin_ws/src/traxxas_node/${idir}'.  Ask the maintainer 'ut <ut@todo.todo>' to fix it.")
     endif()
     _list_append_unique(traxxas_node_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/awesome/catkin_ws/devel/lib;/opt/ros/indigo/lib)
+    foreach(path /home/blue/catkin_ws/devel/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

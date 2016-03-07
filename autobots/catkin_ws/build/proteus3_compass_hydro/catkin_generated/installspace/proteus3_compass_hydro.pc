@@ -1,8 +1,8 @@
-prefix=/home/awesome/catkin_ws/install
+prefix=/home/blue/catkin_ws/install
 
 Name: proteus3_compass_hydro
 Description: Description of proteus3_compass_hydro
 Version: 0.0.0
-Cflags: -I/home/awesome/catkin_ws/install/include
-Libs: -L/home/awesome/catkin_ws/install/lib 
+Cflags: -I/home/blue/catkin_ws/install/include
+Libs: -L/home/blue/catkin_ws/install/lib 
 Requires: roscpp rospy serial std_msgs message_runtime

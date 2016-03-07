@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,9 +120,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/awesome/catkin_ws/build/CMakeFiles /home/awesome/catkin_ws/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blue/catkin_ws/build/CMakeFiles /home/blue/catkin_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/awesome/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blue/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -161,6 +161,19 @@ clean_test_results: cmake_check_build_system
 clean_test_results/fast:
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
 .PHONY : clean_test_results/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_Project
+
+# Build rule for target.
+clean_test_results_Project: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_Project
+.PHONY : clean_test_results_Project
+
+# fast build rule for target.
+clean_test_results_Project/fast:
+	$(MAKE) -f CMakeFiles/clean_test_results_Project.dir/build.make CMakeFiles/clean_test_results_Project.dir/build
+.PHONY : clean_test_results_Project/fast
 
 #=============================================================================
 # Target rules for targets named download_extra_data
@@ -499,6 +512,19 @@ gps: cmake_check_build_system
 gps/fast:
 	$(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps.dir/build.make proteus3_gps_hydro/CMakeFiles/gps.dir/build
 .PHONY : gps/fast
+
+#=============================================================================
+# Target rules for targets named gps_read
+
+# Build rule for target.
+gps_read: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gps_read
+.PHONY : gps_read
+
+# fast build rule for target.
+gps_read/fast:
+	$(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps_read.dir/build.make proteus3_gps_hydro/CMakeFiles/gps_read.dir/build
+.PHONY : gps_read/fast
 
 #=============================================================================
 # Target rules for targets named proteus3_gps_hydro_gencpp
@@ -1235,6 +1261,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... clean_test_results"
+	@echo "... clean_test_results_Project"
 	@echo "... download_extra_data"
 	@echo "... doxygen"
 	@echo "... edit_cache"
@@ -1268,6 +1295,7 @@ help:
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... _proteus3_gps_hydro_generate_messages_check_deps_GPSMsg"
 	@echo "... gps"
+	@echo "... gps_read"
 	@echo "... proteus3_gps_hydro_gencpp"
 	@echo "... proteus3_gps_hydro_generate_messages"
 	@echo "... proteus3_gps_hydro_generate_messages_cpp"

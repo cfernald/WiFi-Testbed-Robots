@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/awesome/catkin_ws/src/outdoor_navigation/src/store_navigation_profile.cpp" "/home/awesome/catkin_ws/build/outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o"
+  "/home/blue/catkin_ws/src/outdoor_navigation/src/store_navigation_profile.cpp" "/home/blue/catkin_ws/build/outdoor_navigation/CMakeFiles/store_navigation_profile.dir/src/store_navigation_profile.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,8 +21,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/awesome/catkin_ws/devel/include"
-  "/home/awesome/catkin_ws/src/traxxas_node/include"
+  "/home/blue/catkin_ws/devel/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

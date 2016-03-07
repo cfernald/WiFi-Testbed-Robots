@@ -7,12 +7,12 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/awesome/catkin_ws/devel:$CMAKE_PREFIX_PATH"
-export CPATH="/home/awesome/catkin_ws/devel/include:$CPATH"
-export LD_LIBRARY_PATH="/home/awesome/catkin_ws/devel/lib:/home/awesome/catkin_ws/devel/lib/x86_64-linux-gnu:/opt/ros/indigo/lib/x86_64-linux-gnu:/opt/ros/indigo/lib"
-export PATH="/home/awesome/catkin_ws/devel/bin:$PATH"
-export PKG_CONFIG_PATH="/home/awesome/catkin_ws/devel/lib/pkgconfig:/home/awesome/catkin_ws/devel/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
-export PWD="/home/awesome/catkin_ws/build"
-export PYTHONPATH="/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/awesome/catkin_ws/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/awesome/catkin_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/blue/catkin_ws/devel:$CMAKE_PREFIX_PATH"
+export CPATH="/home/blue/catkin_ws/devel/include:$CPATH"
+export LD_LIBRARY_PATH="/home/blue/catkin_ws/devel/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH"
+export PATH="/home/blue/catkin_ws/devel/bin:$PATH"
+export PKG_CONFIG_PATH="/home/blue/catkin_ws/devel/lib/x86_64-linux-gnu/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/blue/catkin_ws/build"
+export PYTHONPATH="/home/blue/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/blue/catkin_ws/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/blue/catkin_ws/src:$ROS_PACKAGE_PATH"

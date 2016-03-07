@@ -1,8 +1,8 @@
-# Install script for directory: /home/awesome/catkin_ws/src/proteus3_navigation
+# Install script for directory: /home/blue/catkin_ws/src/proteus3_navigation
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/awesome/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/blue/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,33 +33,33 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_navigation/cmake" TYPE FILE FILES "/home/awesome/catkin_ws/build/proteus3_navigation/catkin_generated/installspace/proteus3_navigation-msg-paths.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_navigation/cmake" TYPE FILE FILES "/home/blue/catkin_ws/build/proteus3_navigation/catkin_generated/installspace/proteus3_navigation-msg-paths.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_navigation")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_navigation")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_navigation")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/blue/catkin_ws/devel/lib/python2.7/dist-packages/proteus3_navigation")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/awesome/catkin_ws/build/proteus3_navigation/catkin_generated/installspace/proteus3_navigation.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/blue/catkin_ws/build/proteus3_navigation/catkin_generated/installspace/proteus3_navigation.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_navigation/cmake" TYPE FILE FILES "/home/awesome/catkin_ws/build/proteus3_navigation/catkin_generated/installspace/proteus3_navigation-msg-extras.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_navigation/cmake" TYPE FILE FILES "/home/blue/catkin_ws/build/proteus3_navigation/catkin_generated/installspace/proteus3_navigation-msg-extras.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_navigation/cmake" TYPE FILE FILES
-    "/home/awesome/catkin_ws/build/proteus3_navigation/catkin_generated/installspace/proteus3_navigationConfig.cmake"
-    "/home/awesome/catkin_ws/build/proteus3_navigation/catkin_generated/installspace/proteus3_navigationConfig-version.cmake"
+    "/home/blue/catkin_ws/build/proteus3_navigation/catkin_generated/installspace/proteus3_navigationConfig.cmake"
+    "/home/blue/catkin_ws/build/proteus3_navigation/catkin_generated/installspace/proteus3_navigationConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_navigation" TYPE FILE FILES "/home/awesome/catkin_ws/src/proteus3_navigation/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/proteus3_navigation" TYPE FILE FILES "/home/blue/catkin_ws/src/proteus3_navigation/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 # Utility rule file for proteus3_compass_hydro_genpy.
 
@@ -56,10 +56,10 @@ proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/build: proteu
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/build
 
 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/clean:
-	cd /home/awesome/catkin_ws/build/proteus3_compass_hydro && $(CMAKE_COMMAND) -P CMakeFiles/proteus3_compass_hydro_genpy.dir/cmake_clean.cmake
+	cd /home/blue/catkin_ws/build/proteus3_compass_hydro && $(CMAKE_COMMAND) -P CMakeFiles/proteus3_compass_hydro_genpy.dir/cmake_clean.cmake
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/clean
 
 proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/depend:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awesome/catkin_ws/src /home/awesome/catkin_ws/src/proteus3_compass_hydro /home/awesome/catkin_ws/build /home/awesome/catkin_ws/build/proteus3_compass_hydro /home/awesome/catkin_ws/build/proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/blue/catkin_ws/src /home/blue/catkin_ws/src/proteus3_compass_hydro /home/blue/catkin_ws/build /home/blue/catkin_ws/build/proteus3_compass_hydro /home/blue/catkin_ws/build/proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : proteus3_compass_hydro/CMakeFiles/proteus3_compass_hydro_genpy.dir/depend
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/awesome/catkin_ws/devel/include/traxxas_node/AckermannDriveMsg.h
+/home/blue/catkin_ws/devel/include/traxxas_node/AckermannDriveMsg.h
 string
 -
 vector
@@ -22,11 +22,11 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/awesome/catkin_ws/src/proteus3_navigation/src/microstrain_driver.cpp
+/home/blue/catkin_ws/src/proteus3_navigation/src/microstrain_driver.cpp
 ros/ros.h
-/home/awesome/catkin_ws/src/proteus3_navigation/src/ros/ros.h
+/home/blue/catkin_ws/src/proteus3_navigation/src/ros/ros.h
 traxxas_node/AckermannDriveMsg.h
-/home/awesome/catkin_ws/src/proteus3_navigation/src/traxxas_node/AckermannDriveMsg.h
+/home/blue/catkin_ws/src/proteus3_navigation/src/traxxas_node/AckermannDriveMsg.h
 tf/transform_broadcaster.h
 -
 nav_msgs/Odometry.h

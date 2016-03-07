@@ -1,8 +1,8 @@
-# Install script for directory: /home/awesome/catkin_ws/src/teleop_ackermann_keyboard
+# Install script for directory: /home/blue/catkin_ws/src/teleop_ackermann_keyboard
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/awesome/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/blue/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/awesome/catkin_ws/build/teleop_ackermann_keyboard/catkin_generated/installspace/teleop_ackermann_keyboard.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/blue/catkin_ws/build/teleop_ackermann_keyboard/catkin_generated/installspace/teleop_ackermann_keyboard.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_ackermann_keyboard/cmake" TYPE FILE FILES
-    "/home/awesome/catkin_ws/build/teleop_ackermann_keyboard/catkin_generated/installspace/teleop_ackermann_keyboardConfig.cmake"
-    "/home/awesome/catkin_ws/build/teleop_ackermann_keyboard/catkin_generated/installspace/teleop_ackermann_keyboardConfig-version.cmake"
+    "/home/blue/catkin_ws/build/teleop_ackermann_keyboard/catkin_generated/installspace/teleop_ackermann_keyboardConfig.cmake"
+    "/home/blue/catkin_ws/build/teleop_ackermann_keyboard/catkin_generated/installspace/teleop_ackermann_keyboardConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_ackermann_keyboard" TYPE FILE FILES "/home/awesome/catkin_ws/src/teleop_ackermann_keyboard/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_ackermann_keyboard" TYPE FILE FILES "/home/blue/catkin_ws/src/teleop_ackermann_keyboard/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

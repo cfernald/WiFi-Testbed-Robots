@@ -2,7 +2,7 @@
 
 message(STATUS "traxxas_node: 2 messages, 0 services")
 
-set(MSG_I_FLAGS "-Itraxxas_node:/home/awesome/catkin_ws/src/traxxas_node/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg;-Itraxxas_node:/home/awesome/catkin_ws/src/traxxas_node/msg;-Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Itraxxas_node:/home/blue/catkin_ws/src/traxxas_node/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg;-Itraxxas_node:/home/blue/catkin_ws/src/traxxas_node/msg;-Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -15,14 +15,14 @@ add_custom_target(traxxas_node_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg" NAME_WE)
 add_custom_target(_traxxas_node_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "traxxas_node" "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "traxxas_node" "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg" ""
 )
 
-get_filename_component(_filename "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg" NAME_WE)
 add_custom_target(_traxxas_node_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "traxxas_node" "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "traxxas_node" "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg" ""
 )
 
 #
@@ -32,13 +32,13 @@ add_custom_target(_traxxas_node_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(traxxas_node
-  "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg"
+  "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/traxxas_node
 )
 _generate_msg_cpp(traxxas_node
-  "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg"
+  "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/traxxas_node
@@ -58,9 +58,9 @@ add_custom_target(traxxas_node_generate_messages_cpp
 add_dependencies(traxxas_node_generate_messages traxxas_node_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg" NAME_WE)
 add_dependencies(traxxas_node_generate_messages_cpp _traxxas_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg" NAME_WE)
 add_dependencies(traxxas_node_generate_messages_cpp _traxxas_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -73,13 +73,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS traxxas_node_generate_messages_cpp)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(traxxas_node
-  "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg"
+  "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/traxxas_node
 )
 _generate_msg_lisp(traxxas_node
-  "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg"
+  "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/traxxas_node
@@ -99,9 +99,9 @@ add_custom_target(traxxas_node_generate_messages_lisp
 add_dependencies(traxxas_node_generate_messages traxxas_node_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg" NAME_WE)
 add_dependencies(traxxas_node_generate_messages_lisp _traxxas_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg" NAME_WE)
 add_dependencies(traxxas_node_generate_messages_lisp _traxxas_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -114,13 +114,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS traxxas_node_generate_messages_lisp
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(traxxas_node
-  "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg"
+  "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/traxxas_node
 )
 _generate_msg_py(traxxas_node
-  "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg"
+  "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/traxxas_node
@@ -140,9 +140,9 @@ add_custom_target(traxxas_node_generate_messages_py
 add_dependencies(traxxas_node_generate_messages traxxas_node_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannDriveMsg.msg" NAME_WE)
 add_dependencies(traxxas_node_generate_messages_py _traxxas_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/awesome/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/traxxas_node/msg/AckermannMonitorMsg.msg" NAME_WE)
 add_dependencies(traxxas_node_generate_messages_py _traxxas_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

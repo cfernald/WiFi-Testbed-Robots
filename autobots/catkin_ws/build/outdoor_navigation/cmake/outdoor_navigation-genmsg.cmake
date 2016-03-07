@@ -2,7 +2,7 @@
 
 message(STATUS "outdoor_navigation: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ioutdoor_navigation:/home/awesome/catkin_ws/src/outdoor_navigation/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Ioutdoor_navigation:/home/awesome/catkin_ws/src/outdoor_navigation/msg")
+set(MSG_I_FLAGS "-Ioutdoor_navigation:/home/blue/catkin_ws/src/outdoor_navigation/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Ioutdoor_navigation:/home/blue/catkin_ws/src/outdoor_navigation/msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -15,9 +15,9 @@ add_custom_target(outdoor_navigation_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/awesome/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg" NAME_WE)
 add_custom_target(_outdoor_navigation_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "outdoor_navigation" "/home/awesome/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "outdoor_navigation" "/home/blue/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg" ""
 )
 
 #
@@ -27,7 +27,7 @@ add_custom_target(_outdoor_navigation_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(outdoor_navigation
-  "/home/awesome/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg"
+  "/home/blue/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/outdoor_navigation
@@ -47,7 +47,7 @@ add_custom_target(outdoor_navigation_generate_messages_cpp
 add_dependencies(outdoor_navigation_generate_messages outdoor_navigation_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/awesome/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg" NAME_WE)
 add_dependencies(outdoor_navigation_generate_messages_cpp _outdoor_navigation_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -60,7 +60,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS outdoor_navigation_generate_message
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(outdoor_navigation
-  "/home/awesome/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg"
+  "/home/blue/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/outdoor_navigation
@@ -80,7 +80,7 @@ add_custom_target(outdoor_navigation_generate_messages_lisp
 add_dependencies(outdoor_navigation_generate_messages outdoor_navigation_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/awesome/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg" NAME_WE)
 add_dependencies(outdoor_navigation_generate_messages_lisp _outdoor_navigation_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -93,7 +93,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS outdoor_navigation_generate_message
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(outdoor_navigation
-  "/home/awesome/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg"
+  "/home/blue/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/outdoor_navigation
@@ -113,7 +113,7 @@ add_custom_target(outdoor_navigation_generate_messages_py
 add_dependencies(outdoor_navigation_generate_messages outdoor_navigation_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/awesome/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg" NAME_WE)
 add_dependencies(outdoor_navigation_generate_messages_py _outdoor_navigation_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

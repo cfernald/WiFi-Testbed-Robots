@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 # Utility rule file for tf_generate_messages_lisp.
 
@@ -56,10 +56,10 @@ traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/build: tf_generate_message
 .PHONY : traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/build
 
 traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/clean:
-	cd /home/awesome/catkin_ws/build/traxxas_node && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/blue/catkin_ws/build/traxxas_node && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/clean
 
 traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/depend:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awesome/catkin_ws/src /home/awesome/catkin_ws/src/traxxas_node /home/awesome/catkin_ws/build /home/awesome/catkin_ws/build/traxxas_node /home/awesome/catkin_ws/build/traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/blue/catkin_ws/src /home/blue/catkin_ws/src/traxxas_node /home/blue/catkin_ws/build /home/blue/catkin_ws/build/traxxas_node /home/blue/catkin_ws/build/traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : traxxas_node/CMakeFiles/tf_generate_messages_lisp.dir/depend
 

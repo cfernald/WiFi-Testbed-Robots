@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/awesome/catkin_ws/build/CMakeFiles /home/awesome/catkin_ws/build/proteus3_navigation/CMakeFiles/progress.marks
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/awesome/catkin_ws/build/CMakeFiles 0
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/blue/catkin_ws/build/CMakeFiles /home/blue/catkin_ws/build/proteus3_navigation/CMakeFiles/progress.marks
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blue/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/clean
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/preinstall
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/preinstall
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 proteus3_navigation/CMakeFiles/driver.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/driver.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/driver.dir/rule
 .PHONY : proteus3_navigation/CMakeFiles/driver.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ driver: proteus3_navigation/CMakeFiles/driver.dir/rule
 
 # fast build rule for target.
 driver/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/driver.dir/build.make proteus3_navigation/CMakeFiles/driver.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/driver.dir/build.make proteus3_navigation/CMakeFiles/driver.dir/build
 .PHONY : driver/fast
 
 # Convenience name for target.
 proteus3_navigation/CMakeFiles/microstrain_driver.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/microstrain_driver.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/microstrain_driver.dir/rule
 .PHONY : proteus3_navigation/CMakeFiles/microstrain_driver.dir/rule
 
 # Convenience name for target.
@@ -174,12 +174,12 @@ microstrain_driver: proteus3_navigation/CMakeFiles/microstrain_driver.dir/rule
 
 # fast build rule for target.
 microstrain_driver/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/microstrain_driver.dir/build.make proteus3_navigation/CMakeFiles/microstrain_driver.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/microstrain_driver.dir/build.make proteus3_navigation/CMakeFiles/microstrain_driver.dir/build
 .PHONY : microstrain_driver/fast
 
 # Convenience name for target.
 proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/rule
 .PHONY : proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ proteus3_navigation_gencpp: proteus3_navigation/CMakeFiles/proteus3_navigation_g
 
 # fast build rule for target.
 proteus3_navigation_gencpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_gencpp.dir/build
 .PHONY : proteus3_navigation_gencpp/fast
 
 # Convenience name for target.
 proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages.dir/rule
 .PHONY : proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ proteus3_navigation_generate_messages: proteus3_navigation/CMakeFiles/proteus3_n
 
 # fast build rule for target.
 proteus3_navigation_generate_messages/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages.dir/build
 .PHONY : proteus3_navigation_generate_messages/fast
 
 # Convenience name for target.
 proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_cpp.dir/rule
 .PHONY : proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ proteus3_navigation_generate_messages_cpp: proteus3_navigation/CMakeFiles/proteu
 
 # fast build rule for target.
 proteus3_navigation_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_cpp.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_cpp.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_cpp.dir/build
 .PHONY : proteus3_navigation_generate_messages_cpp/fast
 
 # Convenience name for target.
 proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_lisp.dir/rule
 .PHONY : proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ proteus3_navigation_generate_messages_lisp: proteus3_navigation/CMakeFiles/prote
 
 # fast build rule for target.
 proteus3_navigation_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_lisp.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_lisp.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_lisp.dir/build
 .PHONY : proteus3_navigation_generate_messages_lisp/fast
 
 # Convenience name for target.
 proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_py.dir/rule
 .PHONY : proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ proteus3_navigation_generate_messages_py: proteus3_navigation/CMakeFiles/proteus
 
 # fast build rule for target.
 proteus3_navigation_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_py.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_py.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_generate_messages_py.dir/build
 .PHONY : proteus3_navigation_generate_messages_py/fast
 
 # Convenience name for target.
 proteus3_navigation/CMakeFiles/proteus3_navigation_genlisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_genlisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_genlisp.dir/rule
 .PHONY : proteus3_navigation/CMakeFiles/proteus3_navigation_genlisp.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ proteus3_navigation_genlisp: proteus3_navigation/CMakeFiles/proteus3_navigation_
 
 # fast build rule for target.
 proteus3_navigation_genlisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_genlisp.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_genlisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_genlisp.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_genlisp.dir/build
 .PHONY : proteus3_navigation_genlisp/fast
 
 # Convenience name for target.
 proteus3_navigation/CMakeFiles/proteus3_navigation_genpy.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_genpy.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_navigation/CMakeFiles/proteus3_navigation_genpy.dir/rule
 .PHONY : proteus3_navigation/CMakeFiles/proteus3_navigation_genpy.dir/rule
 
 # Convenience name for target.
@@ -272,7 +272,7 @@ proteus3_navigation_genpy: proteus3_navigation/CMakeFiles/proteus3_navigation_ge
 
 # fast build rule for target.
 proteus3_navigation_genpy/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_genpy.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_genpy.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/proteus3_navigation_genpy.dir/build.make proteus3_navigation/CMakeFiles/proteus3_navigation_genpy.dir/build
 .PHONY : proteus3_navigation_genpy/fast
 
 src/driver.o: src/driver.cpp.o
@@ -280,7 +280,7 @@ src/driver.o: src/driver.cpp.o
 
 # target to build an object file
 src/driver.cpp.o:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/driver.dir/build.make proteus3_navigation/CMakeFiles/driver.dir/src/driver.cpp.o
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/driver.dir/build.make proteus3_navigation/CMakeFiles/driver.dir/src/driver.cpp.o
 .PHONY : src/driver.cpp.o
 
 src/driver.i: src/driver.cpp.i
@@ -288,7 +288,7 @@ src/driver.i: src/driver.cpp.i
 
 # target to preprocess a source file
 src/driver.cpp.i:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/driver.dir/build.make proteus3_navigation/CMakeFiles/driver.dir/src/driver.cpp.i
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/driver.dir/build.make proteus3_navigation/CMakeFiles/driver.dir/src/driver.cpp.i
 .PHONY : src/driver.cpp.i
 
 src/driver.s: src/driver.cpp.s
@@ -296,7 +296,7 @@ src/driver.s: src/driver.cpp.s
 
 # target to generate assembly for a file
 src/driver.cpp.s:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/driver.dir/build.make proteus3_navigation/CMakeFiles/driver.dir/src/driver.cpp.s
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/driver.dir/build.make proteus3_navigation/CMakeFiles/driver.dir/src/driver.cpp.s
 .PHONY : src/driver.cpp.s
 
 src/microstrain_driver.o: src/microstrain_driver.cpp.o
@@ -304,7 +304,7 @@ src/microstrain_driver.o: src/microstrain_driver.cpp.o
 
 # target to build an object file
 src/microstrain_driver.cpp.o:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/microstrain_driver.dir/build.make proteus3_navigation/CMakeFiles/microstrain_driver.dir/src/microstrain_driver.cpp.o
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/microstrain_driver.dir/build.make proteus3_navigation/CMakeFiles/microstrain_driver.dir/src/microstrain_driver.cpp.o
 .PHONY : src/microstrain_driver.cpp.o
 
 src/microstrain_driver.i: src/microstrain_driver.cpp.i
@@ -312,7 +312,7 @@ src/microstrain_driver.i: src/microstrain_driver.cpp.i
 
 # target to preprocess a source file
 src/microstrain_driver.cpp.i:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/microstrain_driver.dir/build.make proteus3_navigation/CMakeFiles/microstrain_driver.dir/src/microstrain_driver.cpp.i
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/microstrain_driver.dir/build.make proteus3_navigation/CMakeFiles/microstrain_driver.dir/src/microstrain_driver.cpp.i
 .PHONY : src/microstrain_driver.cpp.i
 
 src/microstrain_driver.s: src/microstrain_driver.cpp.s
@@ -320,7 +320,7 @@ src/microstrain_driver.s: src/microstrain_driver.cpp.s
 
 # target to generate assembly for a file
 src/microstrain_driver.cpp.s:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/microstrain_driver.dir/build.make proteus3_navigation/CMakeFiles/microstrain_driver.dir/src/microstrain_driver.cpp.s
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_navigation/CMakeFiles/microstrain_driver.dir/build.make proteus3_navigation/CMakeFiles/microstrain_driver.dir/src/microstrain_driver.cpp.s
 .PHONY : src/microstrain_driver.cpp.s
 
 # Help Target
@@ -362,6 +362,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

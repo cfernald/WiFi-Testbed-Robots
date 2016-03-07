@@ -1,6 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/outdoor_navigation_generate_messages_cpp"
-  "/home/awesome/catkin_ws/devel/include/outdoor_navigation/NavFlagMsg.h"
+  "/home/blue/catkin_ws/devel/include/outdoor_navigation/NavFlagMsg.h"
 )
 
 # Per-language clean rules from dependency scanning.

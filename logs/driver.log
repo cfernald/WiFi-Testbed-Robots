@@ -1,4 +1,0 @@
-[INFO] [WallTime: 1456698000.904078] Serial port /dev/ttyUSB2 opened.
-[INFO] [WallTime: 1456698000.904698] Waiting 2s for Arduino to initialize...
-[INFO] [WallTime: 1456698002.915795] /traxxas_driver CommandSender: Thread starting.
-[INFO] [WallTime: 1456698002.922040] /traxxas_driver SerialMonitor: Thread starting.

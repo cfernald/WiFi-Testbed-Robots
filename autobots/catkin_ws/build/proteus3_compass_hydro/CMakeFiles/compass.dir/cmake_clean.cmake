@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/compass.dir/src/compass.cpp.o"
-  "/home/awesome/catkin_ws/devel/lib/proteus3_compass_hydro/compass.pdb"
-  "/home/awesome/catkin_ws/devel/lib/proteus3_compass_hydro/compass"
+  "/home/blue/catkin_ws/devel/lib/proteus3_compass_hydro/compass.pdb"
+  "/home/blue/catkin_ws/devel/lib/proteus3_compass_hydro/compass"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -35,34 +35,34 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 # Utility rule file for outdoor_navigation_generate_messages_py.
 
 # Include the progress variables for this target.
 include outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/progress.make
 
-outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py: /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/_NavFlagMsg.py
-outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py: /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/__init__.py
+outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py: /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/_NavFlagMsg.py
+outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py: /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/__init__.py
 
-/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/_NavFlagMsg.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
-/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/_NavFlagMsg.py: /home/awesome/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/awesome/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+/home/blue/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/_NavFlagMsg.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/blue/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/_NavFlagMsg.py: /home/blue/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/blue/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG outdoor_navigation/NavFlagMsg"
-	cd /home/awesome/catkin_ws/build/outdoor_navigation && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/awesome/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg -Ioutdoor_navigation:/home/awesome/catkin_ws/src/outdoor_navigation/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ioutdoor_navigation:/home/awesome/catkin_ws/src/outdoor_navigation/msg -p outdoor_navigation -o /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg
+	cd /home/blue/catkin_ws/build/outdoor_navigation && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/blue/catkin_ws/src/outdoor_navigation/msg/NavFlagMsg.msg -Ioutdoor_navigation:/home/blue/catkin_ws/src/outdoor_navigation/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ioutdoor_navigation:/home/blue/catkin_ws/src/outdoor_navigation/msg -p outdoor_navigation -o /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg
 
-/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/__init__.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
-/home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/__init__.py: /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/_NavFlagMsg.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/awesome/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
+/home/blue/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/__init__.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/blue/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/__init__.py: /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/_NavFlagMsg.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/blue/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python msg __init__.py for outdoor_navigation"
-	cd /home/awesome/catkin_ws/build/outdoor_navigation && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg --initpy
+	cd /home/blue/catkin_ws/build/outdoor_navigation && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg --initpy
 
 outdoor_navigation_generate_messages_py: outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py
-outdoor_navigation_generate_messages_py: /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/_NavFlagMsg.py
-outdoor_navigation_generate_messages_py: /home/awesome/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/__init__.py
+outdoor_navigation_generate_messages_py: /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/_NavFlagMsg.py
+outdoor_navigation_generate_messages_py: /home/blue/catkin_ws/devel/lib/python2.7/dist-packages/outdoor_navigation/msg/__init__.py
 outdoor_navigation_generate_messages_py: outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/build.make
 .PHONY : outdoor_navigation_generate_messages_py
 
@@ -71,10 +71,10 @@ outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/build:
 .PHONY : outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/build
 
 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/clean:
-	cd /home/awesome/catkin_ws/build/outdoor_navigation && $(CMAKE_COMMAND) -P CMakeFiles/outdoor_navigation_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/blue/catkin_ws/build/outdoor_navigation && $(CMAKE_COMMAND) -P CMakeFiles/outdoor_navigation_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/clean
 
 outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/depend:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/awesome/catkin_ws/src /home/awesome/catkin_ws/src/outdoor_navigation /home/awesome/catkin_ws/build /home/awesome/catkin_ws/build/outdoor_navigation /home/awesome/catkin_ws/build/outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/blue/catkin_ws/src /home/blue/catkin_ws/src/outdoor_navigation /home/blue/catkin_ws/build /home/blue/catkin_ws/build/outdoor_navigation /home/blue/catkin_ws/build/outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : outdoor_navigation/CMakeFiles/outdoor_navigation_generate_messages_py.dir/depend
 

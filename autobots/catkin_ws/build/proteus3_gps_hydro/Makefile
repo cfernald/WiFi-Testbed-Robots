@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awesome/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/blue/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awesome/catkin_ws/build
+CMAKE_BINARY_DIR = /home/blue/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/awesome/catkin_ws/build/CMakeFiles /home/awesome/catkin_ws/build/proteus3_gps_hydro/CMakeFiles/progress.marks
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/awesome/catkin_ws/build/CMakeFiles 0
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/blue/catkin_ws/build/CMakeFiles /home/blue/catkin_ws/build/proteus3_gps_hydro/CMakeFiles/progress.marks
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blue/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/clean
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/preinstall
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/preinstall
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 proteus3_gps_hydro/CMakeFiles/_proteus3_gps_hydro_generate_messages_check_deps_GPSMsg.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/_proteus3_gps_hydro_generate_messages_check_deps_GPSMsg.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/_proteus3_gps_hydro_generate_messages_check_deps_GPSMsg.dir/rule
 .PHONY : proteus3_gps_hydro/CMakeFiles/_proteus3_gps_hydro_generate_messages_check_deps_GPSMsg.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ _proteus3_gps_hydro_generate_messages_check_deps_GPSMsg: proteus3_gps_hydro/CMak
 
 # fast build rule for target.
 _proteus3_gps_hydro_generate_messages_check_deps_GPSMsg/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/_proteus3_gps_hydro_generate_messages_check_deps_GPSMsg.dir/build.make proteus3_gps_hydro/CMakeFiles/_proteus3_gps_hydro_generate_messages_check_deps_GPSMsg.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/_proteus3_gps_hydro_generate_messages_check_deps_GPSMsg.dir/build.make proteus3_gps_hydro/CMakeFiles/_proteus3_gps_hydro_generate_messages_check_deps_GPSMsg.dir/build
 .PHONY : _proteus3_gps_hydro_generate_messages_check_deps_GPSMsg/fast
 
 # Convenience name for target.
 proteus3_gps_hydro/CMakeFiles/gps.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/gps.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/gps.dir/rule
 .PHONY : proteus3_gps_hydro/CMakeFiles/gps.dir/rule
 
 # Convenience name for target.
@@ -174,12 +174,26 @@ gps: proteus3_gps_hydro/CMakeFiles/gps.dir/rule
 
 # fast build rule for target.
 gps/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps.dir/build.make proteus3_gps_hydro/CMakeFiles/gps.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps.dir/build.make proteus3_gps_hydro/CMakeFiles/gps.dir/build
 .PHONY : gps/fast
 
 # Convenience name for target.
+proteus3_gps_hydro/CMakeFiles/gps_read.dir/rule:
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/gps_read.dir/rule
+.PHONY : proteus3_gps_hydro/CMakeFiles/gps_read.dir/rule
+
+# Convenience name for target.
+gps_read: proteus3_gps_hydro/CMakeFiles/gps_read.dir/rule
+.PHONY : gps_read
+
+# fast build rule for target.
+gps_read/fast:
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps_read.dir/build.make proteus3_gps_hydro/CMakeFiles/gps_read.dir/build
+.PHONY : gps_read/fast
+
+# Convenience name for target.
 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_gencpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_gencpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_gencpp.dir/rule
 .PHONY : proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_gencpp.dir/rule
 
 # Convenience name for target.
@@ -188,12 +202,12 @@ proteus3_gps_hydro_gencpp: proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genc
 
 # fast build rule for target.
 proteus3_gps_hydro_gencpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_gencpp.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_gencpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_gencpp.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_gencpp.dir/build
 .PHONY : proteus3_gps_hydro_gencpp/fast
 
 # Convenience name for target.
 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages.dir/rule
 .PHONY : proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -202,12 +216,12 @@ proteus3_gps_hydro_generate_messages: proteus3_gps_hydro/CMakeFiles/proteus3_gps
 
 # fast build rule for target.
 proteus3_gps_hydro_generate_messages/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages.dir/build
 .PHONY : proteus3_gps_hydro_generate_messages/fast
 
 # Convenience name for target.
 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_cpp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_cpp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_cpp.dir/rule
 .PHONY : proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -216,12 +230,12 @@ proteus3_gps_hydro_generate_messages_cpp: proteus3_gps_hydro/CMakeFiles/proteus3
 
 # fast build rule for target.
 proteus3_gps_hydro_generate_messages_cpp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_cpp.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_cpp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_cpp.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_cpp.dir/build
 .PHONY : proteus3_gps_hydro_generate_messages_cpp/fast
 
 # Convenience name for target.
 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_lisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_lisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_lisp.dir/rule
 .PHONY : proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -230,12 +244,12 @@ proteus3_gps_hydro_generate_messages_lisp: proteus3_gps_hydro/CMakeFiles/proteus
 
 # fast build rule for target.
 proteus3_gps_hydro_generate_messages_lisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_lisp.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_lisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_lisp.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_lisp.dir/build
 .PHONY : proteus3_gps_hydro_generate_messages_lisp/fast
 
 # Convenience name for target.
 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_py.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_py.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_py.dir/rule
 .PHONY : proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -244,12 +258,12 @@ proteus3_gps_hydro_generate_messages_py: proteus3_gps_hydro/CMakeFiles/proteus3_
 
 # fast build rule for target.
 proteus3_gps_hydro_generate_messages_py/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_py.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_py.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_py.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_generate_messages_py.dir/build
 .PHONY : proteus3_gps_hydro_generate_messages_py/fast
 
 # Convenience name for target.
 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genlisp.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genlisp.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genlisp.dir/rule
 .PHONY : proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genlisp.dir/rule
 
 # Convenience name for target.
@@ -258,12 +272,12 @@ proteus3_gps_hydro_genlisp: proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_gen
 
 # fast build rule for target.
 proteus3_gps_hydro_genlisp/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genlisp.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genlisp.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genlisp.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genlisp.dir/build
 .PHONY : proteus3_gps_hydro_genlisp/fast
 
 # Convenience name for target.
 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genpy.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genpy.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genpy.dir/rule
 .PHONY : proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genpy.dir/rule
 
 # Convenience name for target.
@@ -272,12 +286,12 @@ proteus3_gps_hydro_genpy: proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genpy
 
 # fast build rule for target.
 proteus3_gps_hydro_genpy/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genpy.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genpy.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genpy.dir/build.make proteus3_gps_hydro/CMakeFiles/proteus3_gps_hydro_genpy.dir/build
 .PHONY : proteus3_gps_hydro_genpy/fast
 
 # Convenience name for target.
 proteus3_gps_hydro/CMakeFiles/rec_gps.dir/rule:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/rec_gps.dir/rule
+	cd /home/blue/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 proteus3_gps_hydro/CMakeFiles/rec_gps.dir/rule
 .PHONY : proteus3_gps_hydro/CMakeFiles/rec_gps.dir/rule
 
 # Convenience name for target.
@@ -286,7 +300,7 @@ rec_gps: proteus3_gps_hydro/CMakeFiles/rec_gps.dir/rule
 
 # fast build rule for target.
 rec_gps/fast:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/rec_gps.dir/build.make proteus3_gps_hydro/CMakeFiles/rec_gps.dir/build
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/rec_gps.dir/build.make proteus3_gps_hydro/CMakeFiles/rec_gps.dir/build
 .PHONY : rec_gps/fast
 
 src/gps.o: src/gps.cpp.o
@@ -294,7 +308,7 @@ src/gps.o: src/gps.cpp.o
 
 # target to build an object file
 src/gps.cpp.o:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps.dir/build.make proteus3_gps_hydro/CMakeFiles/gps.dir/src/gps.cpp.o
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps.dir/build.make proteus3_gps_hydro/CMakeFiles/gps.dir/src/gps.cpp.o
 .PHONY : src/gps.cpp.o
 
 src/gps.i: src/gps.cpp.i
@@ -302,7 +316,7 @@ src/gps.i: src/gps.cpp.i
 
 # target to preprocess a source file
 src/gps.cpp.i:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps.dir/build.make proteus3_gps_hydro/CMakeFiles/gps.dir/src/gps.cpp.i
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps.dir/build.make proteus3_gps_hydro/CMakeFiles/gps.dir/src/gps.cpp.i
 .PHONY : src/gps.cpp.i
 
 src/gps.s: src/gps.cpp.s
@@ -310,15 +324,39 @@ src/gps.s: src/gps.cpp.s
 
 # target to generate assembly for a file
 src/gps.cpp.s:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps.dir/build.make proteus3_gps_hydro/CMakeFiles/gps.dir/src/gps.cpp.s
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps.dir/build.make proteus3_gps_hydro/CMakeFiles/gps.dir/src/gps.cpp.s
 .PHONY : src/gps.cpp.s
+
+src/gps_read.o: src/gps_read.cpp.o
+.PHONY : src/gps_read.o
+
+# target to build an object file
+src/gps_read.cpp.o:
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps_read.dir/build.make proteus3_gps_hydro/CMakeFiles/gps_read.dir/src/gps_read.cpp.o
+.PHONY : src/gps_read.cpp.o
+
+src/gps_read.i: src/gps_read.cpp.i
+.PHONY : src/gps_read.i
+
+# target to preprocess a source file
+src/gps_read.cpp.i:
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps_read.dir/build.make proteus3_gps_hydro/CMakeFiles/gps_read.dir/src/gps_read.cpp.i
+.PHONY : src/gps_read.cpp.i
+
+src/gps_read.s: src/gps_read.cpp.s
+.PHONY : src/gps_read.s
+
+# target to generate assembly for a file
+src/gps_read.cpp.s:
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/gps_read.dir/build.make proteus3_gps_hydro/CMakeFiles/gps_read.dir/src/gps_read.cpp.s
+.PHONY : src/gps_read.cpp.s
 
 src/rec_gps.o: src/rec_gps.cpp.o
 .PHONY : src/rec_gps.o
 
 # target to build an object file
 src/rec_gps.cpp.o:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/rec_gps.dir/build.make proteus3_gps_hydro/CMakeFiles/rec_gps.dir/src/rec_gps.cpp.o
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/rec_gps.dir/build.make proteus3_gps_hydro/CMakeFiles/rec_gps.dir/src/rec_gps.cpp.o
 .PHONY : src/rec_gps.cpp.o
 
 src/rec_gps.i: src/rec_gps.cpp.i
@@ -326,7 +364,7 @@ src/rec_gps.i: src/rec_gps.cpp.i
 
 # target to preprocess a source file
 src/rec_gps.cpp.i:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/rec_gps.dir/build.make proteus3_gps_hydro/CMakeFiles/rec_gps.dir/src/rec_gps.cpp.i
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/rec_gps.dir/build.make proteus3_gps_hydro/CMakeFiles/rec_gps.dir/src/rec_gps.cpp.i
 .PHONY : src/rec_gps.cpp.i
 
 src/rec_gps.s: src/rec_gps.cpp.s
@@ -334,7 +372,7 @@ src/rec_gps.s: src/rec_gps.cpp.s
 
 # target to generate assembly for a file
 src/rec_gps.cpp.s:
-	cd /home/awesome/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/rec_gps.dir/build.make proteus3_gps_hydro/CMakeFiles/rec_gps.dir/src/rec_gps.cpp.s
+	cd /home/blue/catkin_ws/build && $(MAKE) -f proteus3_gps_hydro/CMakeFiles/rec_gps.dir/build.make proteus3_gps_hydro/CMakeFiles/rec_gps.dir/src/rec_gps.cpp.s
 .PHONY : src/rec_gps.cpp.s
 
 # Help Target
@@ -346,6 +384,7 @@ help:
 	@echo "... _proteus3_gps_hydro_generate_messages_check_deps_GPSMsg"
 	@echo "... edit_cache"
 	@echo "... gps"
+	@echo "... gps_read"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
@@ -363,6 +402,9 @@ help:
 	@echo "... src/gps.o"
 	@echo "... src/gps.i"
 	@echo "... src/gps.s"
+	@echo "... src/gps_read.o"
+	@echo "... src/gps_read.i"
+	@echo "... src/gps_read.s"
 	@echo "... src/rec_gps.o"
 	@echo "... src/rec_gps.i"
 	@echo "... src/rec_gps.s"
@@ -377,6 +419,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/awesome/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/blue/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

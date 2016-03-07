@@ -2,7 +2,7 @@
 
 message(STATUS "proteus3_compass_hydro: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iproteus3_compass_hydro:/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Iproteus3_compass_hydro:/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg")
+set(MSG_I_FLAGS "-Iproteus3_compass_hydro:/home/blue/catkin_ws/src/proteus3_compass_hydro/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Iproteus3_compass_hydro:/home/blue/catkin_ws/src/proteus3_compass_hydro/msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -15,9 +15,9 @@ add_custom_target(proteus3_compass_hydro_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg" NAME_WE)
 add_custom_target(_proteus3_compass_hydro_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "proteus3_compass_hydro" "/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "proteus3_compass_hydro" "/home/blue/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg" ""
 )
 
 #
@@ -27,7 +27,7 @@ add_custom_target(_proteus3_compass_hydro_generate_messages_check_deps_${_filena
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(proteus3_compass_hydro
-  "/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg"
+  "/home/blue/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/proteus3_compass_hydro
@@ -47,7 +47,7 @@ add_custom_target(proteus3_compass_hydro_generate_messages_cpp
 add_dependencies(proteus3_compass_hydro_generate_messages proteus3_compass_hydro_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg" NAME_WE)
 add_dependencies(proteus3_compass_hydro_generate_messages_cpp _proteus3_compass_hydro_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -60,7 +60,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS proteus3_compass_hydro_generate_mes
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(proteus3_compass_hydro
-  "/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg"
+  "/home/blue/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/proteus3_compass_hydro
@@ -80,7 +80,7 @@ add_custom_target(proteus3_compass_hydro_generate_messages_lisp
 add_dependencies(proteus3_compass_hydro_generate_messages proteus3_compass_hydro_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg" NAME_WE)
 add_dependencies(proteus3_compass_hydro_generate_messages_lisp _proteus3_compass_hydro_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -93,7 +93,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS proteus3_compass_hydro_generate_mes
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(proteus3_compass_hydro
-  "/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg"
+  "/home/blue/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/proteus3_compass_hydro
@@ -113,7 +113,7 @@ add_custom_target(proteus3_compass_hydro_generate_messages_py
 add_dependencies(proteus3_compass_hydro_generate_messages proteus3_compass_hydro_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/awesome/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/blue/catkin_ws/src/proteus3_compass_hydro/msg/CompassMsg.msg" NAME_WE)
 add_dependencies(proteus3_compass_hydro_generate_messages_py _proteus3_compass_hydro_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
