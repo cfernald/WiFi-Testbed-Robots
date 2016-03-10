@@ -14,7 +14,7 @@ def genCircle():
 		destLat = math.degrees(destLat);
 		destLon = math.degrees(destLon);
 		destLon = (destLon+540.0)%360.0-180.0;	
-		output = str(destLat) + ', ' + str(destLon) + '/n'
+		output = str(destLat) + ', ' + str(destLon) + '\n'
 		f.write(output)
 
 if __name__ == "__main__":
