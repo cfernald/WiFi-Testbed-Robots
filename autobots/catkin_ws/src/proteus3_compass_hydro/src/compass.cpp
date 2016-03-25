@@ -120,8 +120,10 @@ int run(int argc, char **argv) {
               else
                 headingDeg = 360 - headingDeg; //180 - (headingDeg - 180)
 
-              cout << "Heading: " << headingDeg << ", Pitch: " << pitchDeg << ", Roll: " << rollDeg << endl;
-
+              //cout << "Heading: " << headingDeg << ", Pitch: " << pitchDeg << ", Roll: " << rollDeg << endl;
+              cout <<  headingDeg <<  pitchDeg <<  rollDeg << endl;
+              
+             
               proteus3_compass_hydro::CompassMsg msg;
               msg.heading = headingDeg;
               msg.pitch = pitchDeg;

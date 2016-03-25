@@ -273,14 +273,21 @@ int parseGPGGA(const std::vector<std::string> tokens) {
     msg.num_sats = numSats;
     msg.hdop = hdop;
     std::ofstream outfile;
-    printf("lat: %6f\t lon: %6f\n",lat,lon);
-    outfile.open("testing.txt");
-    outfile << lat;
-    outfile << "\t";
-
-    outfile << lon << endl;
+    //printf("lat: %6f\t lon: %6f\n",lat,lon);
+    if(!(access( "testing.txt", F_OK ) != -1))
+    {
+        outfile.open("GPS_Result.txt");
+        outfile << "Lat\tLon" <<endl;
+    }
+    else
+        outfile.open("GPS_Result.txt", std::ios_base::app);
+    std::time_t now = time(0);
+    char* dt = ctime(&now);
+    outfile << dt << endl;
+    outfile << lat << "," << lon <<endl;
     outfile.close();
-  //  std::cout << "lon: " << lon << "\t" << "lat: " << lat << endl;
+    std::cout << "Lat\t:Lon" <<endl;
+    std::cout << lat << "," << lon <<endl;
     return 0;
   }
 }
@@ -320,8 +327,6 @@ void parseGPRMC(const std::vector<std::string> tokens) {
   tokens[9].copy(tmp, 2, 4); // Fourth two characters is the year
   tmp[2] = '\0';
   tms.tm_year = 100 + atoi(tmp); // years since 1900
-
-
 }
 
 /**
@@ -381,11 +386,8 @@ int run(int argc, char **argv) {
   while (ros::ok()) {
     if (my_serial.available() > 0) {
       string currLine = my_serial.readline(200, "\n");
-//      cout << "Read line: " << currLine;
       readLine = true;
-
       std::vector<std::string> tokens = split(currLine, ',');
-      
 
       if (!tokens[0].compare(NMEA_GPGGA)) {
         if (parseGPGGA(tokens) == 0) {
