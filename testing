@@ -43,4 +43,5 @@ done
 
 sudo usermod -a -G dialout blue
 chown -R blue:blue ~/.ros/
+chown -R blue:blue ~/catkin_ws/
 
