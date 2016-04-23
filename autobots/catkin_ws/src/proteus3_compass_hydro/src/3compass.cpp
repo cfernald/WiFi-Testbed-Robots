@@ -105,10 +105,10 @@ int run(int argc, char **argv) {
             if (checksum == buff[7]) {
               //printf("Checksum matched!\n");
               float headingDeg1 = ((uint16_t)((buff[1] << 8) + buff[2])) / 10.0; // heading in degrees (0 to 360)
-              float headingDeg2 = ((uint16_t)((buff[3] << 8) + buff[4])) / 10.0; // pitch in degrees (-90 to 90)
-              float headingDeg3 =  ((uint16_t)((buff[5] << 8) + buff[6])) / 10.0; // roll in degrees (-90 to 90)
-              float pitchDeg = ((int16_t)((buff[3] << 8) + buff[4])) / 10.0; // pitch in degrees (-90 to 90)
-              float rollDeg =  ((int16_t)((buff[5] << 8) + buff[6])) / 10.0; // roll in degrees (-90 to 90)
+              float headingDeg2 = ((uint16_t)((buff[7] << 8) + buff[8])) / 10.0; // pitch in degrees (-90 to 90)
+              float headingDeg3 =  ((uint16_t)((buff[13] << 8) + buff[14])) / 10.0; // roll in degrees (-90 to 90)
+              float pitchDeg = ((int16_t)((buff[14] << 8) + buff[15])) / 10.0; // pitch in degrees (-90 to 90)
+              float rollDeg =  ((int16_t)((buff[16] << 8) + buff[17])) / 10.0; // roll in degrees (-90 to 90)
               float heading [3] = {headingDeg1,headingDeg2,headingDeg3};
               // From the way the compass is mounted on the Proteus III,
               // the heading measurement needs to be rotated by -90 degrees.

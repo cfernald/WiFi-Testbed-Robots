@@ -32,7 +32,7 @@ int RED_LED = 7;
 byte buf[8]; // A buffer for holding the message
 
 //this is the sending buffer
-byte buffer[8];
+byte buffer[20];
 
 void setup() {
   buf[0] = PROTEUS_BEGIN;
@@ -49,10 +49,10 @@ void loop() {
   compass2();
   compass3();
   buffer[7] = 0;
-  for (int i = 0; i < 7; i++) {
-    buffer[7] ^= buffer[i];
+  for (int i = 0; i < 19; i++) {
+    buffer[19] ^= buffer[i];
   }
-  Serial.write(buf, 8);
+  Serial.write(buf, 20);
   digitalWrite(RED_LED, HIGH);
   delay(20);
   digitalWrite(RED_LED, LOW);
@@ -70,6 +70,10 @@ void compass1(void)
   while(Wire.available() < 1);             // Busy wait while there is no byte to receive
   buffer[1] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
   buffer[2] = Wire.read();
+  buffer[3] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
+  buffer[4] = Wire.read();
+  buffer[5] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
+  buffer[6] = Wire.read();
 }
 //this compas ahs address 20
 void compass2(void)
@@ -80,8 +84,12 @@ void compass2(void)
 
   Wire.requestFrom(COMPASS2, 6);    // Request six bytes of data from the HMC6343 compasss
   while(Wire.available() < 1);             // Busy wait while there is no byte to receive
-  buffer[3] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
-  buffer[4] = Wire.read();
+  buffer[7] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
+  buffer[8] = Wire.read();
+  buffer[9] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
+  buffer[10] = Wire.read();
+  buffer[11] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
+  buffer[12] = Wire.read();
 }
 //this compass has abn addres of 10
 void compass3(void)
@@ -92,6 +100,10 @@ void compass3(void)
 
   Wire.requestFrom(COMPASS3, 6);    // Request six bytes of data from the HMC6343 compasss
   while(Wire.available() < 1);             // Busy wait while there is no byte to receive
-  buffer[5] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
-  buffer[6] = Wire.read();
+  buffer[13] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
+  buffer[14] = Wire.read();
+  buffer[15] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
+  buffer[16] = Wire.read();
+  buffer[17] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
+  buffer[18] = Wire.read();
 }
