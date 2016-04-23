@@ -1,3 +1,4 @@
+
 /**
  * Accesses the HMC6343 compass for the heading, pitch, and roll at 10Hz.
  * Packages the data in a Proteus message and prints it to the serial port.
@@ -18,14 +19,20 @@
 /**
  * Define the constants.
  */
-#define HMC6343_ADDRESS            0x19
-#define HMC6343_HEADING_REG        0x50
-#define PROTEUS_BEGIN              0x24
+#define COMPASS3                    0x19 //this is the 32 compass
+#define COMPASS2                    0x10 // this is the 20 compass
+#define COMPASS1                    0x08//this is the 10 compass
+
+#define HMC6343_HEADING_REG         0x50
+#define PROTEUS_BEGIN               0x24
 
 int GREEN_LED = 6;
 int RED_LED = 7;
 
 byte buf[8]; // A buffer for holding the message
+
+//this is the sending buffer
+byte buffer[8]
 
 void setup() {
   buf[0] = PROTEUS_BEGIN;
@@ -37,44 +44,54 @@ void setup() {
 }
 
 void loop() {
-  Wire.beginTransmission(HMC6343_ADDRESS);    // Start communicating with the HMC6343 compasss
-  Wire.write(HMC6343_HEADING_REG);             // Send the address of the register that we want to read
-  Wire.endTransmission();
-
-  Wire.requestFrom(HMC6343_ADDRESS, 6);    // Request six bytes of data from the HMC6343 compasss
-  while(Wire.available() < 1);             // Busy wait while there is no byte to receive
-
-  buf[1] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
-  buf[2] = Wire.read();
-  //float heading = ((highByte << 8) + lowByte) / 10.0; // the heading in degrees
-
-  buf[3] = Wire.read();
-  buf[4] = Wire.read();
-  //float pitch = ((highByte << 8) + lowByte) / 10.0;   // the pitch in degrees
-
-  buf[5] = Wire.read();
-  buf[6] = Wire.read();
-  //float roll = ((highByte << 8) + lowByte) / 10.0;    // the roll in degrees
-
   // compute the checksum
-  buf[7] = 0;
+  compass1();
+  compass2();
+  compass3();
+  buffer[7] = 0;
   for (int i = 0; i < 7; i++) {
-    buf[7] ^= buf[i];
+    buffer[7] ^= buffer[i];
   }
-
   Serial.write(buf, 8);
-
-  /*Serial.print("Heading=");             // Print the sensor readings to the serial port.
-  Serial.print(heading);
-  Serial.print(", Pitch=");
-  Serial.print(pitch);
-  Serial.print(", Roll=");
-  Serial.println(roll);*/
-
   digitalWrite(RED_LED, HIGH);
   delay(20);
   digitalWrite(RED_LED, LOW);
   delay(80);
 
-  //delay(100); // Do this at approx 10Hz
+}
+//this compass has addresss 32
+void compass1(void)
+{
+  Wire.beginTransmission(COMPASS1);    // Start communicating with the HMC6343 compasss
+  Wire.write(HMC6343_HEADING_REG);             // Send the address of the register that we want to read
+  Wire.endTransmission();
+
+  Wire.requestFrom(COMPASS1, 6);    // Request six bytes of data from the HMC6343 compasss
+  while(Wire.available() < 1);             // Busy wait while there is no byte to receive
+  buffer[1] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
+  buffer[2] = Wire.read();
+}
+//this compas ahs address 20
+void compass2(void)
+{
+  Wire.beginTransmission(COMPASS2);    // Start communicating with the HMC6343 compasss
+  Wire.write(HMC6343_HEADING_REG);             // Send the address of the register that we want to read
+  Wire.endTransmission();
+
+  Wire.requestFrom(COMPASS2, 6);    // Request six bytes of data from the HMC6343 compasss
+  while(Wire.available() < 1);             // Busy wait while there is no byte to receive
+  buffer[3] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
+  buffer[4] = Wire.read();
+}
+//this compass has abn addres of 10
+void compass3(void)
+{
+  Wire.beginTransmission(COMPASS3);    // Start communicating with the HMC6343 compasss
+  Wire.write(HMC6343_HEADING_REG);             // Send the address of the register that we want to read
+  Wire.endTransmission();
+
+  Wire.requestFrom(COMPASS3, 6);    // Request six bytes of data from the HMC6343 compasss
+  while(Wire.available() < 1);             // Busy wait while there is no byte to receive
+  buffer[5] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
+  buffer[6] = Wire.read()
 }
