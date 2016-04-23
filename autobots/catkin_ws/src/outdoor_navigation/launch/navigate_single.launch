@@ -7,6 +7,7 @@ filename is the name of the file in ~/ros_outdoor_navigation/data/
 <launch>
   <arg name="f" default="waypoints.csv"/>
   <arg name="start" default="0"/>
+  <node pkg="traxxas_node" type="driver.py" name="driver"/>
   <node pkg="proteus3_gps_hydro" type="gps" name="gps"/>
   <node pkg="proteus3_compass_hydro" type="compass" name="compass"/>
   <node pkg="outdoor_navigation" type="store_navigation_profile" name="store_navigation_profile"/>
