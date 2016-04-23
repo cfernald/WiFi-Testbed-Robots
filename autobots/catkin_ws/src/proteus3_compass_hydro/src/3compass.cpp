@@ -135,14 +135,14 @@ int run(int argc, char **argv) {
                   diff[0] = heading[i]-heading[j];
               }
               //find the smalles
-              float smalles =999;
+              int smalles =999;
               for(int i=0;i<3;i++)
               {
                 if(diff[i]<smalles)
                   smalles = i;
               }
               float headingDeg;
-              switch(smalles)
+              switch(smalles){
                 case 0:
                   headingDeg = heading[0]+heading[1];
                   headingDeg = headingDeg/2;
@@ -154,7 +154,7 @@ int run(int argc, char **argv) {
                 case 2:
                   headingDeg = heading[2]+heading[3];
                   headingDeg = headingDeg/2;
-                  break;
+                  break;}
               cout << "Heading: " << headingDeg << ", Pitch: " << pitchDeg << ", Roll: " << rollDeg << endl;
             //  cout <<  headingDeg <<  pitchDeg <<  rollDeg << endl;
 
@@ -172,7 +172,7 @@ int run(int argc, char **argv) {
               printf("Checksum missmatch! (0x%x != 0x%x)\n", checksum, buff[7]);
             }
           } else {
-            printf("Failed to read entire message (%i of %i bytes)\n", numBytes, COMPASS_MESSAGE_SIZE - 1);
+            printf("Failed to read entire message (%lu of %i bytes)\n", numBytes, COMPASS_MESSAGE_SIZE - 1);
           }
         } else {
           printf("First byte not start byte, discard it...\n");

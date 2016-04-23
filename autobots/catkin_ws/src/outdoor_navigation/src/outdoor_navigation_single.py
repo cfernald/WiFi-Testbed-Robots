@@ -15,12 +15,12 @@ from proteus3_compass_hydro.msg import CompassMsg
 
 
 # variables, you can adjust these variables for calibratyion
-close_enough = 4  # distance in meters considered close enough to destination to stop
+close_enough = .5  # distance in meters considered close enough to destination to stop
 move_speed = 1    # desired move speed of the traxxas
 
 #Controller parameters,
-Kp = 0.1	#proportional gain, Should be non-zero (Tested with 0.03125)
-Ki = 0.01	#integral gain, should be non-negative (Tested with 0.03)
+Kp = 0.03125	#proportional gain, Should be non-zero (Tested with 0.03125)
+Ki = 0.03	#integral gain, should be non-negative (Tested with 0.03)
 Kd = 0		#Differential gain, should be non-negative (Tested with 0)
 Kl = 0		#Divergence to the line gain, should be non-negative (Tested with 0)
 max_total_error = 400 #maximum integral sum of error
