@@ -32,7 +32,7 @@ int RED_LED = 7;
 byte buf[8]; // A buffer for holding the message
 
 //this is the sending buffer
-byte buffer[8]
+byte buffer[8];
 
 void setup() {
   buf[0] = PROTEUS_BEGIN;
@@ -93,5 +93,5 @@ void compass3(void)
   Wire.requestFrom(COMPASS3, 6);    // Request six bytes of data from the HMC6343 compasss
   while(Wire.available() < 1);             // Busy wait while there is no byte to receive
   buffer[5] = Wire.read();              // Reads in the bytes and convert them into proper degree units.
-  buffer[6] = Wire.read()
+  buffer[6] = Wire.read();
 }
