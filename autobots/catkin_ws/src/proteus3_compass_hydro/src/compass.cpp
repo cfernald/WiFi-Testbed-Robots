@@ -21,7 +21,7 @@
 #include <sstream>
 
 #define PROTEUS_START 0x24 // a special byte to indicate the start of a message
-#define COMPASS_MESSAGE_SIZE 20 // the size of the compass message in bytes
+#define COMPASS_MESSAGE_SIZE 8 // the size of the compass message in bytes
 
 using std::string;
 using std::exception;

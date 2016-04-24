@@ -163,7 +163,7 @@ int run(int argc, char **argv) {
               chatter_pub.publish(msg);
 
             } else {
-              printf("Checksum missmatch! (0x%x != 0x%x)\n", checksum, buff[7]);
+              printf("Checksum missmatch! (0x%x != 0x%x)\n", checksum, buff[19]);
             }
           } else {
             printf("Failed to read entire message (%lu of %i bytes)\n", numBytes, COMPASS_MESSAGE_SIZE - 1);
