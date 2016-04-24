@@ -130,11 +130,11 @@ int run(int argc, char **argv) {
 			  remove = remove < heading_var[2] ? heading_var[2] : remove;
 			  float headingDeg;
 			  if(remove == heading_var[0])
-				headingDeg = (heading_var[2] + heading_var[1])/2;
-			  else if (remove == heading_var[1])
-				headingDeg = (heading_var[0] + heading_var[2])/2;
+				headingDeg = (heading[2] + heading[1])/2;
+			  else if (remove == heading[1])
+				headingDeg = (heading[0] + heading[2])/2;
 			  else
-				headingDeg = (heading_var[0]+heading_var[1])/2;
+				headingDeg = (heading[0]+heading[1])/2;
 			 // From the way the compass is mounted on the Proteus III,
               // the heading measurement needs to be rotated by -90 degrees.
               /*headingDeg -= 90;
