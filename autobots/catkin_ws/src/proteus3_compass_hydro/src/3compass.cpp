@@ -117,7 +117,7 @@ int run(int argc, char **argv) {
               cout << "Heading2: " << headingDeg2 <<endl;
               cout << "Heading3: " << headingDeg3 <<endl;
 			  
-			  float headingMean = (headingDeg+headingDeg2+headingDeg3)/3;
+			  float headingMean = (headingDeg1+headingDeg2+headingDeg3)/3;
 			  heading_var[0] = heading[0]-headingMean;
 			  heading_var[1] = heading[1]-headingMean;
 			  heading_var[2] = heading[2]-headingMean;
