@@ -13,7 +13,7 @@
 #include <string>
 #include <iostream>
 #include <cstdio>
-
+#include <stdlib.h>
 #include "serial/serial.h"
 
 #include "ros/ros.h"
@@ -70,7 +70,7 @@ int run(int argc, char **argv) {
   bool readMsg = false;
 
   while (ros::ok()) {
-    if (my_serial.available() >= 8) {
+    if (my_serial.available() >= COMPASS_MESSAGE_SIZE) {
       /* Read one byte from the serial port.
        * If it is a PROTEUS_START byte, read
        * the remaining bytes in the message
@@ -102,7 +102,7 @@ int run(int argc, char **argv) {
             }
             //printf("Checksum = 0x%x\n", checksum);
 
-            if (checksum == buff[7]) {
+            if (checksum == buff[19]) {
               //printf("Checksum matched!\n");
               float headingDeg1 = ((uint16_t)((buff[1] << 8) + buff[2])) / 10.0; // heading in degrees (0 to 360)
               float headingDeg2 = ((uint16_t)((buff[7] << 8) + buff[8])) / 10.0; // pitch in degrees (-90 to 90)
@@ -110,52 +110,46 @@ int run(int argc, char **argv) {
               float pitchDeg = ((int16_t)((buff[14] << 8) + buff[15])) / 10.0; // pitch in degrees (-90 to 90)
               float rollDeg =  ((int16_t)((buff[16] << 8) + buff[17])) / 10.0; // roll in degrees (-90 to 90)
               float heading [3] = {headingDeg1,headingDeg2,headingDeg3};
+			  float heading_var[3];
               // From the way the compass is mounted on the Proteus III,
               // the heading measurement needs to be rotated by -90 degrees.
               cout << "Heading1: " << headingDeg1 <<endl;
               cout << "Heading2: " << headingDeg2 <<endl;
               cout << "Heading3: " << headingDeg3 <<endl;
-              for(int i=0; i<3;i++)
-              {
-                heading[i] -= 90;
-                if (heading[i] < 0)
-                  heading[i] = 360 + heading[i];
+			  
+			  float headingMean = (headingDeg+headingDeg2+headingDeg3)/3;
+			  heading_var[0] = heading[0]-headingMean;
+			  heading_var[1] = heading[1]-headingMean;
+			  heading_var[2] = heading[2]-headingMean;
+              for(int i =0; i<3; i++)
+			  {
+				  if(heading_var[i] <0)
+					  heading_var[i] *=-1;
+			  }
+			  float remove = heading_var[0] < heading_var[1] ? heading_var[1] : heading_var[0];
+			  remove = remove < heading_var[2] ? heading_var[2] : remove;
+			  float headingDeg;
+			  if(remove == heading_var[0])
+				headingDeg = (heading_var[2] + heading_var[1])/2;
+			  else if (remove == heading_var[1])
+				headingDeg = (heading_var[0] + heading_var[2])/2;
+			  else
+				headingDeg = (heading_var[0]+heading_var[1])/2;
+			 // From the way the compass is mounted on the Proteus III,
+              // the heading measurement needs to be rotated by -90 degrees.
+              /*headingDeg -= 90;
+              if (headingDeg < 0)
+                headingDeg = 360 + headingDeg;
 
-                // Convert the heading from 0-360 to -180 to 180
-                if (heading[i] < 180)
-                  heading[i] *= -1;
-                else
-                  heading[i] = 360 - heading[i]; //180 - (headingDeg - 180)
-              }
-              //compute differences
-              float diff[3];
-              for(int i=0;i<3;i++)
-              {
-                for(int j=1;j<3;j++)
-                  diff[0] = heading[i]-heading[j];
-              }
-              //find the smalles
-              int smalles =999;
-              for(int i=0;i<3;i++)
-              {
-                if(diff[i]<smalles)
-                  smalles = i;
-              }
-              float headingDeg;
-              switch(smalles){
-                case 0:
-                  headingDeg = heading[0]+heading[1];
-                  headingDeg = headingDeg/2;
-                  break;
-                case 1:
-                  headingDeg = heading[0]+heading[2];
-                  headingDeg = headingDeg/2;
-                  break;
-                case 2:
-                  headingDeg = heading[2]+heading[3];
-                  headingDeg = headingDeg/2;
-                  break;}
-              cout << "Heading: " << headingDeg << ", Pitch: " << pitchDeg << ", Roll: " << rollDeg << endl;
+              // Convert the heading from 0-360 to -180 to 180
+              if (headingDeg < 180)
+                headingDeg *= -1;
+              else
+                headingDeg = 360 - headingDeg; //180 - (headingDeg - 180)
+				*/
+				headingDeg -= 180;
+
+			 cout << "Heading: " << headingDeg << ", Pitch: " << pitchDeg << ", Roll: " << rollDeg << endl;
             //  cout <<  headingDeg <<  pitchDeg <<  rollDeg << endl;
 
 
