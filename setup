@@ -42,7 +42,7 @@ sudo apt-get update && sudo apt-get install -y arduino arduino-core
 This is to install all of the catkin packages and set everything up #
 ######################################################################
 s will set up the scripts and stuff
-cp -R -v  ~/autobots/autobots/bin ~/
+cp -R -v  ~/WiFi-Testbed-Robots/autobots/bin ~/
 cd ~/bin
 chmod 755 indigo
 chmod 755 setPort
@@ -62,17 +62,17 @@ catkin_make
 
 
 #set up the catkin ws and make it
-cp -R -v ~/autobots/autobots/catkin_ws/src ~/autobots/
-rm -r ~/autobots/src/traxxas_node
-rm -r ~/autobots/src/outdoor_navigation
-cp -R -v ~/autobots/autobots/catkin_ws/src/traxxas_node ~/catkin_ws/src
+cp -R -v ~/WiFi-Testbed-Robots/autobots/catkin_ws/src ~/autobots/
+rm -r ~/WiFi-Testbed-Robots/src/traxxas_node
+rm -r ~/WiFi-Testbed-Robots/src/outdoor_navigation
+cp -R -v ~/WiFi-Testbed-Robots/autobots/catkin_ws/src/traxxas_node ~/catkin_ws/src
 source indigo
-cd ~/autobbots/src
-cp -R -v ~/autobots/src/* ~/catkin_ws/src
+cd ~/WiFi-Testbed-Robots/src
+cp -R -v ~/WiFi-Testbed-Robots/src/* ~/catkin_ws/src
 source indigo
-cp -R -v ~/autobots/autobots/catkin_ws/src/outdoor_navigation ~/catkin_ws/src
+cp -R -v ~/WiFi-Testbed-Robots/autobots/catkin_ws/src/outdoor_navigation ~/catkin_ws/src
 source indigo
-cd ~/autobots
+cd ~/WiFi-Testbed-Robots
 rm -r src
 cd
 #go through catkin and make all ofthe .py files executable
@@ -84,4 +84,3 @@ done
 sudo usermod -a -G dialout blue
 chown -R blue:blue ~/.ros/
 chown -R blue:blue ~/catkin_ws/
-
